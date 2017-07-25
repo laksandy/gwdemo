@@ -1,0 +1,566 @@
+,Name,address,gw_affiliates,id,keyword,lat,lng,notes,physician_count,practice_size,rating,tier,vetted,zip_code,Lst_80,GWU_50,Lst_50,GWU_80,MFA_50,MFA_80
+0,Virginia Hospital Center,"1701 North George Mason Drive, Arlington",,a09e42957a5820c77afd0722b4b744d9e7486243,hospital,38.8886873,-77.127175,,,,3.6,1.0,True,22205,1,1,0,1,1,1
+1,Metro Immediate and Primary Care: Capitol Hill,"220 L Street Northeast, Washington",,d404b85c1870f893388f1c169c42d59e29b9a9f7,hospital,38.903941,-77.002632,,,,3.1,1.0,True,20002,1,1,1,1,1,1
+2,Children's National Health System,"111 Michigan Avenue Northwest, Washington",,094003cbe3ed120aa055847edcfe7be628d467bd,hospital,38.9273107,-77.014524,,,,3.9,1.0,True,20010,1,1,1,1,1,1
+3,UM Baltimore Washington Medical Center,"301 Hospital Drive, Glen Burnie",,f907570d4fcb33d15535523fc1117eaf4e6f6b65,hospital,39.1376872,-76.6228375,,,,2.9,1.0,True,21061,0,0,0,0,0,0
+4,Virginia Hospital Center Urgent Care,"601 South Carlin Springs Road, Arlington",,5d0288d1856dabedc3d51bd01cb2c983d67137d9,hospital,38.8609619,-77.1261679,,,,2.9,1.0,True,22204,1,1,0,1,0,1
+5,Reston Hospital Center,"1850 Town Center Parkway, Reston",,18cf0722045bbf6a0cc155d3bb6f89f53092ab19,hospital,38.9620888,-77.3642233,,,,3.5,1.0,True,20190,0,0,0,0,0,0
+6,MedStar Washington Hospital Center,"110 Irving Street Northwest, Washington",,b7a49120ae69ab0998526b410562ed2341efc016,hospital,38.9299178,-77.0141873,,,,3.3,1.0,True,20010,1,1,1,1,1,1
+7,Providence Health System (Providence Hospital),"1150 Varnum Street Northeast, Washington",,0e3aef4f10efc97bde40d209611a9ab2544f4588,hospital,38.943866,-76.991492,,,,2.5,1.0,True,20017,1,1,0,1,1,1
+8,Inova Fairfax Hospital,"3300 Gallows Road, Falls Church",,c11b6cf218d8ce8dba3ea029fa5c50c8320e1f25,hospital,38.8574932,-77.2284285,,,,3.4,1.0,True,22003,0,0,0,0,0,0
+9,Adventist HealthCare Shady Grove Medical Center,"9901 Medical Center Drive, Rockville",,033c56ba071ab9d97f06ca9923b02fd4fb2869be,hospital,39.0979571,-77.1979934,,,,2.5,1.0,True,20850,0,0,0,0,0,0
+10,Doctors Community Hospital,"8118 Good Luck Road, Lanham",,639c043a8492cb6539756f87300043304cd213d7,hospital,38.9808504,-76.8651044,,,,2.6,1.0,True,20706,0,0,0,0,0,0
+11,George Washington University Hospital,"900 23rd Street Northwest, Washington",,9016be2a226065ee50656b98086e377303abafe0,hospital,38.901305,-77.050646,,,,3.1,1.0,True,20037,1,1,1,1,1,1
+12,Nova Urgent & Primary Care,"6858 Old Dominion Drive #102, McLean",,8af81147cbc1339f35e18bdc9feb7f974ed18788,hospital,38.9360712,-77.181986,,,,,1.0,True,22101,1,0,0,1,0,1
+13,Prince George's Hospital Center,"3001 Hospital Drive, Cheverly",,8b83d368e13e098668e6cecffd376b8c4b0a33b1,hospital,38.9308958,-76.9209673,,,,2.3,1.0,True,20785,1,0,0,1,0,1
+14,MedStar Montgomery Medical Center,"18101 Prince Philip Drive, Olney",,5826e370775725a8a87be08739d819beba33285b,hospital,39.1538458,-77.0542875,,,,3.0,1.0,True,20832,0,0,0,0,0,0
+15,Shady Grove Ophthalmology: Anthony O. Roberts MD,"9715 Medical Center Drive #502, Rockville",,a3b166305279795dccec995ab13e67d594731f3c,Ophthalmology,39.099115,-77.197938,,1.0,,4.5,1.0,True,20850,0,0,0,0,0,0
+16,"Virginia Adult and Pediatric Ophthalmology, PC","5900 Fort Drive, Centreville",,230b37e4706c8d0e652fbbdaa9a520c8155d45c5,Ophthalmology,38.8354805,-77.4332186,,1.0,,5.0,1.0,True,20121,0,0,0,0,0,0
+17,Howard University Hospital- Ophthalmology,"Tower Building, 2041 Georgia Avenue Northwest #2100, Washington",,5ff7a466f901e3ac3e43088afc69a8bac52dfa21,Ophthalmology,38.9174086,-77.0192935,,9.0,,1.0,1.0,True,20001,1,1,1,1,1,1
+18,Metropolitan Ophthalmology: Joseph Colleen MD,"6845 Elm Street #250, McLean",,d55acd9a4152da3630af3206157b10d9c93336af,Ophthalmology,38.9363525,-77.1810181,,1.0,,,1.0,True,22101,1,0,0,1,0,1
+19,Kids Eye Care of Maryland,"15235 Shady Grove Road, Rockville",,d30a3f6550bd1ccb86e085b2134b9fa8be16fd9a,Ophthalmology,39.1067221,-77.1883655,,5.0,,3.7,1.0,True,20850,0,0,0,0,0,0
+20,"Dr. Edward S. Parelhoff, MD","8134 Old Keene Mill Road # 300, Springfield",,ba71151a4399e9d3f5ac315187652edf61c58dbb,Ophthalmology,38.781717,-77.226578,,1.0,,4.0,1.0,True,22152,0,0,0,0,0,0
+21,"Dr. Joel M. Engelstein, MD","8630 Fenton Street #130, Silver Spring",,67703bb8d880437c6a205bd636264ba887201a86,Ophthalmology,38.9978681,-77.0283034,,1.0,,3.7,1.0,True,20910,1,0,0,1,0,1
+22,Visionary Eye Doctors,"11300 Rockville Pike, Rockville",,dabd483ae300508bb3532884ea055e5e3afca176,Ophthalmology,39.041561,-77.111728,,10.0,,3.4,1.0,True,20852,0,0,0,0,0,0
+23,Gadol Judith MD,"2296 Opitz Boulevard # 120, Woodbridge",,297e28fdb2f2fc0d64eb5562638d02571a3c3c10,Ophthalmology,38.6347276,-77.284262,4.1; healthgrades;,1.0,,,1.0,True,22191,0,0,0,0,0,0
+24,Johns Hopkins Wilmer Eye Institute at Odenton,"1106 Annapolis Road, Odenton",,3f6b26e93bce5fc1a358190617bee460c0c991f7,Ophthalmology,39.0797006,-76.6852568,5; webmd (for 1 doctor);,7.0,,2.0,1.0,True,21113,0,0,0,0,0,0
+25,"Wilmer Eye Institute, Johns Hopkins Medicine Columbia, MD","Medical Pavilion at Howard County, 10710 Charter Drive, Suite #310, Columbia",,4cad227fa37353e8db60f2dc868c7c5378f08efc,Ophthalmology,39.21369,-76.882247,another facility for wilmer hopkins,17.0,,4.8,1.0,True,21044,0,0,0,0,0,0
+26,"Dr. David J. Seidman, MD","3975 Fair Ridge Drive, Fairfax",,fcfd0b910e3aa1f4c43b61c0b3ea860ae2509d33,Ophthalmology,38.8726492,-77.368274,3.6; healthgrades;,1.0,,5.0,1.0,True,22033,0,0,0,0,0,0
+27,"Dr. Linda B. Dressler, MD","3930 Pender Drive, Fairfax",,4266523213d8b1e376b941630c258f1c8c898ea1,Ophthalmology,38.8604412,-77.3341506,5; webmd; 3.9 healthgrades; 3.7 ratemds;,1.0,,2.3,1.0,True,22030,0,0,0,0,0,0
+28,George A Patterson III MDPC,"8218 Wisconsin Avenue P10, Bethesda",,8fde8527c5497356a4af17592b44ce1386204758,Ophthalmology,38.992147,-77.096419,3.2 ratemds; 4.6 healthgrades; 5 yelp;,1.0,,,1.0,True,20814,1,0,0,1,0,1
+29,"Dr. Douglas F. Greer, MD","1200 G Street Northwest, Washington",,4655d453a5e555da243d7364a4e7c50c40aa7da7,Ophthalmology,38.8979732,-77.0284837,5 yelp;,1.0,,4.6,1.0,True,20005,1,1,1,1,1,1
+30,Arlington Eye Center,"1635 North George Mason Drive, Arlington",,4546a987fea1e7f53013cfecf17bb74145f4f3b4,Ophthalmology,38.8884444,-77.1275019,3 yelp;,5.0,,2.7,1.0,True,22205,1,1,0,1,1,1
+31,Butrus Salim I MD,"650 Pennsylvania Avenue Southeast, Washington",,f525d87cd2b59ac5e64fd3962ecc903ac3480ae0,Ophthalmology,38.885379,-76.9969321,4.1 healthgrades,1.0,,4.8,1.0,True,20003,1,1,1,1,1,1
+32,Columbia Eye Associates: Stopak Samuel S MD,"2440 M Street Northwest #516, Washington",,b90f79c3be8f70243dc62c459ff3095a66ee5427,Ophthalmology,38.9050431,-77.052974,4.4 zocdoc; 3 yelp;,1.0,,2.8,1.0,True,20037,1,1,1,1,1,1
+33,"Farhad Naseh, M.D.","6 Montgomery Village Avenue #103, Gaithersburg",,b3a85ff625d64bd741ffb74a1d2f03bc434c3026,Ophthalmology,39.1545453,-77.2104339,,1.0,,3.4,1.0,True,20879,0,0,0,0,0,0
+34,Capital Oral & Facial Surgery Center,"1145 19th Street Northwest #777, Washington",,174844fd9eee33ba2e1826a56816ee9bbaed83e5,Surgical,38.905054,-77.042893,i verified intersection with gw_services: botox. also blepharoplasty is eyelid repair.,1.0,,4.8,1.0,True,20036,1,1,1,1,1,1
+35,"Cataract Surgeon Washington, DC","1821 Jefferson Place Northwest #605, Washington",,ef30c0386fb4749c91617e6819ee09658fd9ad6b,Cataracts,38.9065839,-77.0425223,,1.0,,,1.0,True,20036,1,1,1,1,1,1
+36,Glaucoma Consultants of Washington,"171 Elden Street Suite 100, Herndon",,144025e0b95aa427970f4f43733f3ae1960d72b1,Glaucoma,38.965241,-77.367712,,2.0,,3.0,1.0,True,20170,0,0,0,0,0,0
+37,Glaucoma Center: Hall Alyson L MD,"2448 Holly Avenue # 300, Annapolis",,a430074ebab20839d6ea8f1eff32a4c65b5d9234,Glaucoma,38.9841693,-76.5379879,,1.0,,5.0,1.0,True,21401,0,0,0,0,0,0
+38,Glaucoma Center: Hall Alyson Lee MD,"17001 Science Drive #120, Bowie",,328660827220b1bdf2939091f1e54f44d1cd8613,Glaucoma,38.9633094,-76.7099198,,1.0,,,1.0,True,20715,0,0,0,0,0,0
+39,"Glaucoma Plus Eye Care - Dr. Anshu Sinha - MD, FRCS","10400 Little Patuxent Parkway, Columbia",,5a1aeed4f5030d8f946d8b13f767a4723ccb1fd7,Glaucoma,39.2123304,-76.8588125,,1.0,,5.0,1.0,True,21044,0,0,0,0,0,0
+40,Maryland Glaucoma and Eye Care,"500 South Camp Meade Road a, Linthicum Heights",,2bf01911087261aa135f9203a24593980362977a,Glaucoma,39.2012105,-76.6558584,,1.0,,,1.0,True,21090,0,0,0,0,0,0
+41,Glaucoma Plus Eye Care,"10400 Little Patuxent Parkway, Columbia",,d1d3063adf5cd8768303a96ef324a8f7aa14b12a,Glaucoma,39.2123401,-76.8587663,,1.0,,,1.0,True,21044,0,0,0,0,0,0
+42,"The Glaucoma Center, PC","West Court Building, 2448 Holly Avenue #300, Annapolis",,41ff48fb154a472e2c5039488765a25c561d67dd,Glaucoma,38.984175,-76.5379755,,3.0,,,1.0,True,21401,0,0,0,0,0,0
+43,Eye Consultants & Surgeons - GLAUCOMA & CATARACT SPECIALIST,"611 South Carlin Springs Road, Arlington",,338e94b5ee3eb4b39d72cb6eb73ea5d443b51535,Glaucoma,38.859359,-77.126425,,1.0,,,1.0,True,22204,1,1,0,1,0,1
+44,Diabetic Eye and Macular Disease,"1160 Varnum Street Northeast #208, Washington",,7a029941bebf71b8afb15858fff3d2c2b39bd6ef,Diabetic,38.944346,-76.9916106,,1.0,,,1.0,True,20017,1,1,0,1,1,1
+45,Pearle Vision,"11193 Veirs Mill Road, Wheaton",,4c307d47fe0ab18dc0783900e431495832c4bebf,Eye Exam,39.0400436,-77.0547782,,1.0,,4.6,2.0,True,20902,0,0,0,0,0,0
+46,Eyes On Main,"217 Main Street, Annapolis",,e6d632c431fc1670152e433108870769cd75aaee,Eye Exam,38.9780059,-76.4916204,,1.0,,4.2,2.0,True,21401,0,0,0,0,0,0
+47,For Eyes Optical,"2021 L Street Northwest, Washington",,59b32dd5074713946e7a62ae626e4f6afad443ce,Eye Exam,38.90402,-77.0456262,,1.0,,3.6,2.0,True,20036,1,1,1,1,1,1
+48,For Eyes Optical,"1304 G Street Northwest, Washington",,d040badef5dbd9519d54824f8754bba45bb93df9,Eye Exam,38.898081,-77.030122,,1.0,,4.2,2.0,True,20004,1,1,1,1,1,1
+49,"Sophear Seng, OD","14390 Chantilly Crossing Lane, Chantilly",,19a3156cb164cdf19c605781ce8164d7f1585dbb,Eye Exam,38.8951416,-77.4428573,,1.0,,,2.0,True,20151,0,0,0,0,0,0
+50,LensCrafters,"1060 Rockville Pike, Rockville",,baee3a98c48e4ec8be69b4d691fb472b3922576b,Eye Exam,39.072421,-77.13276,,1.0,,3.6,2.0,True,20852,0,0,0,0,0,0
+51,Visual Eyes,"6088 Greenbelt Road #101, Greenbelt",,311b1dfa8d4a4357186f27195ae0409b3254eba9,Eye Exam,38.999221,-76.9085076,,1.0,,3.0,2.0,True,20770,0,0,0,0,0,0
+52,LensCrafters,"1100 South Hayes Street, Arlington",,78fe3d1d0c9c157cc9e7dd65131da2e57c1ea88b,Eye Exam,38.864097,-77.060476,,1.0,,2.8,2.0,True,22202,1,1,1,1,1,1
+53,LensCrafters Optique,"1130 Connecticut Avenue Northwest Ste 110, Washington",,360cdc7f4381c35c39b70b1ac44ea05893a7c427,Eye Exam,38.904807,-77.040826,,1.0,,3.1,2.0,True,20036,1,1,1,1,1,1
+54,LensCrafters,"6575 Frontier Drive, Springfield",,aa81d42d390abffa19ca0fb784380f70caa51230,Eye Exam,38.7741914,-77.1708675,"most lens crafters are 2, but some are 3 (no exams)",1.0,,3.0,2.0,True,22150,0,0,0,0,0,0
+55,Visionworks - Tenley Circle,"4301 Wisconsin Ave, NW, Washington",,ee8a4b01b2f8a92f9a75ced83669497a8c339839,Eye Exam,38.9451078,-77.0778191,,1.0,,3.5,2.0,True,20016,1,1,1,1,1,1
+56,LensCrafters,"2400 Boston Street Ste 106, Baltimore",,6a39265ffb53e1feadb7613c5d336d363a78d1d0,Eye Exam,39.281581,-76.580393,,1.0,,3.1,2.0,True,21224,0,0,0,0,0,0
+57,Premier Optometric Services,"1200 South Fern Street, Arlington",,5d724612b6902652bd5303c796d5a0cfc4a3daef,Eye Exam,38.860961,-77.0571247,,1.0,,3.0,2.0,True,22202,1,1,1,1,1,1
+58,MyEyeDr.,"1744 L Street Northwest, Washington",,9b43acd34e6adc5dce3e845df069bf59ce960886,Eye Exam,38.9035153,-77.041233,,1.0,,2.3,2.0,True,20036,1,1,1,1,1,1
+59,Pearle Vision,"10300 Little Patuxent Parkway, Spc 1625, Columbia",,bb7303126071e62cfc4014a6441f9cbfeea7acc7,Eye Exam,39.2152276,-76.8593553,,1.0,,4.2,2.0,True,21044,0,0,0,0,0,0
+60,Pearle Vision,"14811 Baltimore Avenue, Laurel",,3cc98f5632f6c8da3dfc82316fe253a58f55e6f6,Eye Exam,39.093804,-76.854197,,1.0,,4.2,2.0,True,20707,0,0,0,0,0,0
+61,Center For Eyelid & Facial,"6420 Rockledge Drive # 4300, Bethesda",,acecdd6f462ec8acaf0555f60a705364b0cd58d0,Eyelid,39.0245951,-77.1331784,plastic surgery,1.0,,,1.0,True,20817,0,0,0,0,0,0
+62,Laser Center of Maryland,"484 Ritchie Highway, Severna Park",,62fd2b716e6e8b5b2c195e7cfba2325c1b06e373,Laser,39.081799,-76.550538,eyelid surgery,1.0,,4.5,1.0,True,21146,0,0,0,0,0,0
+63,The Retina Group of Washington,"660 Pennsylvania Avenue Southeast Suite 200, Washington",,dc44131a81ab77d264979343ea24385426d911fb,Retina,38.8852081,-76.9964528,,2.0,,5.0,1.0,True,20003,1,1,1,1,1,1
+64,The Retina Group of Washington,"8505 Arlington Boulevard #300, Fairfax",,ae2c64052eddaa31d30b4c66e60370a867f15cf8,Retina,38.8644708,-77.2399657,,11.0,,5.0,1.0,True,22031,0,0,0,0,0,0
+65,The Retina Group of Washington,"6354 Walker Lane Suite 100, Alexandria",,57d3104ab7ffde86d5632db97bf2fd5e3ce074cd,Retina,38.7690023,-77.160784,,4.0,,3.5,1.0,True,22310,0,0,0,0,0,0
+66,The Retina Group of Washington,"21351 Ridgetop Circle #140, Sterling",,c953071d4ac70f9a915b8be1f00b7e02c897675e,Retina,39.0324603,-77.4122952,,4.0,,3.0,1.0,True,20166,0,0,0,0,0,0
+67,Retina Consultants PC,"1145 19th Street Northwest #500, Washington",,e7eb99c94676decc4dc07137c433881083141e0e,Retina,38.9050499,-77.0429506,,6.0,,,1.0,True,20036,1,1,1,1,1,1
+68,The Retina Group of Washington,"8630 Fenton Street #1104, Silver Spring",,8db1b7d67a483b270f29d323953f40b411702a72,Retina,38.9979427,-77.0284931,,2.0,,4.0,1.0,True,20910,1,0,0,1,0,1
+69,The Retina Group of Washington,"16901 Melford Boulevard Suite 111, Bowie",,c63752d3984541c4f26d4a05c8b43ca1e7d82d21,Retina,38.959697,-76.714378,,2.0,,5.0,1.0,True,20715,0,0,0,0,0,0
+70,Virginia Retina Center: Mansour Sam MD,"19500 Sandridge Way, Leesburg",,7dede414c925ed22a7d22c92d7f32fd98d3e2389,Retina,39.0761096,-77.4804246,,1.0,,4.0,1.0,True,20176,0,0,0,0,0,0
+71,Retina Associates: Reid Deborah MD,"7130 Minstrel Way #120, Columbia",,f96adfce6056563ad7b0b730ac07cc575580ae9c,Retina,39.1796075,-76.8465689,,1.0,,,1.0,True,21045,0,0,0,0,0,0
+72,Retina Associates: Reid Deborah a MD,"2002 Medical Parkway # 450, Annapolis",,118b4bb38c5d08eae510dcfc65198d78c395f6c1,Retina,38.990671,-76.537306,,1.0,,,1.0,True,21401,0,0,0,0,0,0
+73,Advanced Retina Center,"5400 Shawnee Road #205, Alexandria",,d73f4b88a3713415075d9648fdb44f2a811790e5,Retina,38.8058104,-77.1676916,,1.0,,,1.0,True,22312,0,0,0,0,0,1
+74,Advanced Retina Center LC,"8233 Old Courthouse Road, Vienna",,9a88fc6805383464865dd909099dfecd7e21e14a,Retina,38.91306,-77.231005,,1.0,,,1.0,True,22182,0,0,0,0,0,0
+75,The Retina Group of Washington,"106 Irving St NW, South Tower, Suite 422, Washington",,e9b8414d525d35b8b39cbcf8ed739f4e70e3ea43,Retina,38.929543,-77.013673,,2.0,,4.0,1.0,True,20010,1,1,1,1,1,1
+76,Germantown Retina,"20528 Boland Farm Road #215, Germantown",,afb915ba0f831be41c5b2e4d687b97fb831723d0,Retina,39.193676,-77.250162,,1.0,,,1.0,True,20876,0,0,0,0,0,0
+77,Retina Specialists,"9700 Patuxent Woods Drive #110, Columbia",,562fe32068149810897bf42d554b7790c1fd1a9e,Retina,39.1786651,-76.8485395,,3.0,,,1.0,True,21046,0,0,0,0,0,0
+78,Virginia Retina Center,"19500 Sandridge Way #240, Leesburg",,ebae487f4912b2d5fa3fd0c26ea699547d699fc1,Retina,39.0764671,-77.4818829,,4.0,,,1.0,True,20176,0,0,0,0,0,0
+79,DC Retina,"2101 Medical Park Drive #303, Silver Spring",,9fb6aa28e5e851926bed2b19389d1d1168a3ca4a,Retina,39.0241603,-77.0433652,,1.0,,,1.0,True,20902,1,0,0,0,0,1
+80,"David Parver, MD (Retina Consultants PC)","6410 Rockledge Drive Suite 400, Bethesda",,c9fa81591ad3f497638a13398112f1ea7a83bfd6,Retina,39.0240155,-77.1337016,,1.0,,,1.0,True,20817,0,0,0,0,0,0
+81,"Retina Associates: David R. Watt, M.D.","2002 Medical Parkway #450, Annapolis",,6d86d21baf9e2ba9592397ec7030c7fee9494fba,Retina,38.990671,-76.537306,,1.0,,,1.0,True,21401,0,0,0,0,0,0
+82,Retina Consultants: Stephens Robert F MD,"6410 Rockledge Drive # 400, Bethesda",,259728a778ac93a0e2fea6a825c34e0cfcc6f58e,Retina,39.0239863,-77.1336496,,1.0,,,1.0,True,20817,0,0,0,0,0,0
+83,Eye Doctors of Washington,"2 Wisconsin Circle #230, Chevy Chase",,e0e5e09ded17373704b3c7880e40e450e9002580,Corneal,38.9615317,-77.0854041,"name is wrong, should be 'eye doctors of washington'",10.0,,,1.0,True,20815,1,1,0,1,0,1
+84,"Mid Atlantic Cornea Consultants, Dr. Angelique Pillar, MD","5900 Waterloo Road #230, Columbia",,aca4f3a475391ab08b7a598d5f6a50c3082b314f,Corneal,39.2073692,-76.7996576,,1.0,,5.0,1.0,True,21045,0,0,0,0,0,0
+85,America's Best Contacts & Eyeglasses,"1100 Connecticut Avenue Northwest, Washington",,d0afb40a6455663c5b941cf953ba26a63b251b86,Contacts,38.904048,-77.040535,,1.0,,2.7,2.0,True,20036,1,1,1,1,1,1
+86,America's Best Contacts & Eyeglasses,"5503 Leesburg Pike, Bailey's Crossroads",,7ef3cad55c9e4c5e0e5a026171ded13a34ff906b,Contacts,38.8469368,-77.1229589,,1.0,,2.3,2.0,True,22041,1,0,0,1,0,1
+87,America's Best Contacts & Eyeglasses,"6855 New Hampshire Avenue, Takoma Park",,e6bd028861232db3823c27de6604c2ad6e4614c6,Contacts,38.9734731,-76.9946766,,1.0,,2.7,2.0,True,20912,1,0,0,1,0,1
+88,America's Best Contacts & Eyeglasses,"5031 Indian Head Highway, Oxon Hill",,3110fefeac5503638b36cd513437232693a526b8,Contacts,38.8193526,-77.0026882,,1.0,,3.3,2.0,True,20745,1,0,0,1,0,1
+89,America's Best Contacts & Eyeglasses,"1401 Rockville Pike #100, Rockville",,29d28b39dfddb8115897217eebc62d39aaffbb09,Contacts,39.066813,-77.129202,,1.0,,2.3,2.0,True,20852,0,0,0,0,0,0
+90,America's Best Contacts & Eyeglasses,"2924 Prince William Parkway, Woodbridge",,70a48d91ce05cb92e5e1a2379ded3ee5c6ddf839,Contacts,38.6526141,-77.3005683,,1.0,,2.4,2.0,True,22192,0,0,0,0,0,0
+91,America's Best Contacts & Eyeglasses,"3006 Waldorf Market Place #9, Waldorf",,23b6f510c159ae2e8451584cb5fd816fd7a54f8f,Contacts,38.626086,-76.920193,,1.0,,2.4,2.0,True,20603,0,0,0,0,0,0
+92,America's Best Contacts & Eyeglasses,"7005 Security Blvd, Baltimore",,8839ee0f5846f4b0b2348856bc3552dafc199e63,Contacts,39.312071,-76.753684,,1.0,,2.7,2.0,True,21244,0,0,0,0,0,0
+93,America's Best Contacts & Eyeglasses,"9337 Annapolis Road, Lanham",,0394df9599ffd0f429648981d8d148888b776e8c,Contacts,38.9644638,-76.8473434,,1.0,,1.6,2.0,True,20706,0,0,0,0,0,0
+94,America's Best Contacts & Eyeglasses,"6635 Ritchie Hwy, # Gov, Glen Burnie",,13259c69d1ed7f932d0d35f8ebe8d1103396657e,Contacts,39.194217,-76.610203,,1.0,,2.2,2.0,True,21061,0,0,0,0,0,0
+95,America's Best Contacts & Eyeglasses,"14635-b Baltimore Ave, Laurel",,ebc3b8768b2e798c64c8ac142dab2fed87c7ac21,Contacts,39.0909077,-76.8566863,,1.0,,2.8,2.0,True,20707,0,0,0,0,0,0
+96,America's Best Contacts & Eyeglasses,"45591 Dulles Eastern Plaza #184, Sterling",,d5e0dd579a5bf64addf30b609aa5bc62e66ed890,Contacts,39.0258192,-77.422357,,1.0,,3.8,2.0,True,20166,0,0,0,0,0,0
+97,America's Best Contacts & Eyeglasses,"3118 Donnell Drive, Forestville",,8c3fdf61c98b226427dcc74ae4eaf50154dd9238,Contacts,38.84429,-76.883415,,1.0,,3.0,2.0,True,20747,0,0,0,0,0,0
+98,America's Best Contacts & Eyeglasses,"916 Largo Center Dr, Suite B-23, Upper Marlboro",,8e17e9a221e3a0378c5bb306e0599919894a1962,Contacts,38.900407,-76.834846,,1.0,,2.8,2.0,True,20774,0,0,0,0,0,0
+99,America's Best Contacts & Eyeglasses,"150 Jennifer Road, Annapolis",,1b348b4557cb29efa040f3db3e3eb3798e9c3ba5,Contacts,38.990563,-76.539468,,1.0,,4.2,2.0,True,21401,0,0,0,0,0,0
+100,Cornea Consultants,"1715 North George Mason Drive, Arlington",,a43e3fcda252d22ada6f9901a7e0e8a9303d8135,Cornea,38.8903334,-77.1284778,,3.0,,,1.0,True,22205,1,1,0,1,1,1
+101,"Rajesh K. Rajpal, M.D.","8138 Watson Street, McLean",,dfb9116fffb0247a4bbd4521eefc221aefd22b77,Cornea,38.9180929,-77.2267216,,1.0,,,1.0,True,22102,0,0,0,0,0,0
+102,Cornea Consultants,"8138 Watson Street, McLean",,9da2d9e58d0f2d5009ff5df33ddc9f8f8507ccf5,Cornea,38.9181178,-77.2267065,same building as rajesh rajpal,4.0,,,1.0,True,22102,0,0,0,0,0,0
+103,Cornea Consultants: Logan Lorie OD,"8180 Greensboro Drive, McLean",,4869ccfe28c545e4f304ec54aefdea4b781cfd4b,Cornea,38.9235833,-77.2276721,"reviews said surgery also, so tier 1 for sure",1.0,,,1.0,True,22102,0,0,0,0,0,0
+104,LensCrafters,"4238 Wilson Boulevard #3140, Arlington",,40aea9f5e5022c1db9b1831ff83f90b5b1e4f880,Lens,38.8792192,-77.1114686,,1.0,,3.8,2.0,True,22203,1,1,1,1,1,1
+105,"JEMS Optical, LLC","1401 New York Avenue Northwest, Washington",,c32ad5e716abcd6bf5c9ba6292f1e9215b11f1f9,Lens,38.899781,-77.032312,,1.0,,4.4,2.0,True,20005,1,1,1,1,1,1
+106,Shady Grove Eye & Vision Care,"15200 Shady Grove Road #100, Rockville",,a9c6c81a0d6ff0f94196bb66d9f8859e9ce5378e,Lens,39.104372,-77.191081,services lists laser,5.0,,4.9,1.0,True,20850,0,0,0,0,0,0
+107,LensCrafters,"10300 Little Patuxent Pkwy, Ste 1005-B, Columbia",,148fb59afb69bd66b99a48e1f2a5925bd27352c0,Lens,39.216488,-76.85968,,1.0,,2.8,2.0,True,21044,0,0,0,0,0,0
+108,Pearle Vision,"11001-B Lee Highway, Fairfax",,bf937fa917f458bc9c8e23f820857529d717b92b,Lens,38.852162,-77.323316,,1.0,,5.0,2.0,True,22030,0,0,0,0,0,0
+109,Pearle Vision,"7931 Ritchie Highway, Glen Burnie",,96e483f277ad5a5816d8007c7a975935be420f49,Lens,39.138269,-76.599861,,1.0,,4.2,2.0,True,21061,0,0,0,0,0,0
+110,Vision Source DC Focus Eyecare Center,"1776 G Street Northwest, Washington",,c571a6dce9a74de3ebe7367a242acd48a435c008,Lens,38.8979521,-77.0411457,,2.0,,4.8,2.0,True,20006,1,1,1,1,1,1
+111,LensCrafters,"21100 Dulles Town Circle #103, Sterling",,60b272872033e7a2348c24e0214328095fd939b2,Lens,39.032607,-77.425192,,1.0,,2.4,2.0,True,20166,0,0,0,0,0,0
+112,Khalil Eye Care,"1406 North Point Village Center, Reston",,9199e8046fdabad2a547252c83a5beb21062b41a,Lens,38.9800597,-77.3487365,,1.0,,3.6,2.0,True,20194,0,0,0,0,0,0
+113,Opti Lens Vision Center,"1490 West Patapsco Avenue # E, Baltimore",,8c0b05379f80aecaf9b93cc475f8f31559bd7772,Lens,39.2488867,-76.6388291,,0.0,,4.0,2.0,True,21230,0,0,0,0,0,0
+114,For Eyes Optical,"718 Rockville Pike, Rockville",,f94cab501944d593e41ace72321d90f8ff0ac882,Lens,39.0796577,-77.1417419,,1.0,,3.7,2.0,True,20852,0,0,0,0,0,0
+115,The LASIK Vision Institute,"5718 Union Mill Road, Clifton",,3b6cf6f9e7c21593ae460e933086c30dd9763516,Lasik,38.833804,-77.4146017,,1.0,,,1.0,True,20124,0,0,0,0,0,0
+116,Alexandria LASIK & PRK Laser Eye Surgery - LasikPlus,"1101 King Street #100, Alexandria",,f2416f77b15c9ca5966391e16a1e6c951ac00cde,Lasik,38.806152,-77.051443,,2.0,,4.9,1.0,True,22314,1,0,0,1,0,1
+117,Rockville LASIK & PRK Laser Eye Surgery - LasikPlus,"800 King Farm Boulevard #135, Rockville",,e994853513725dde3cda8cdf7a07f9ba4855a77f,Lasik,39.110368,-77.18209,,1.0,,5.0,1.0,True,20850,0,0,0,0,0,0
+118,The LASIK Vision Institute,"8614 Westwood Center Drive #650, Vienna",,f81e71cbb10075fba625d6b573e553a27db2a9d9,Lasik,38.9297067,-77.2470902,,1.0,,3.9,1.0,True,22182,0,0,0,0,0,0
+119,The LASIK Vision Institute,"9601 Blackwell Road Suite 225, Rockville",,a13efbbafa6037d62367ed1dc1885b43111247f1,Lasik,39.10174,-77.1928114,,1.0,,3.9,1.0,True,20850,0,0,0,0,0,0
+120,Tysons Corner LASIK & PRK Laser Eye Surgery - LasikPlus,"8280 Greensboro Drive #110, McLean",,2ae55c3acb7efb4ba532647b67c2c4c6cc065b43,Lasik,38.924575,-77.231068,,3.0,,4.9,1.0,True,22102,0,0,0,0,0,0
+121,Annapolis LASIK & PRK Laser Eye Surgery - LasikPlus,"127 Lubrano Drive #301, Annapolis",,f79004049179f3943d3e522d61f4db2d1c87c38f,Lasik,38.986704,-76.551732,,2.0,,4.9,1.0,True,21401,0,0,0,0,0,0
+122,Washington DC Lasik by BostonLaser,"1717 Pennsylvania Avenue Northwest #1025, Washington",,2f2e9d2e910b936f31213c3af271105c018dfa90,Lasik,38.8995219,-77.040384,,1.0,,5.0,1.0,True,20006,1,1,1,1,1,1
+123,"Dr. Walter N. Wills, MD","1101 King Street, Alexandria",,6d094a58d953497b9e1086730e0f7a1bfc2b5e74,Lasik,38.8063547,-77.0516789,,1.0,,5.0,1.0,True,22314,1,0,0,1,0,1
+124,Virginia LASIK by BostonLaser,"431 Park Ave Suite #103, Falls Church",,4f81f496c2b91850b25bb4932d8fbc98a8383130,Lasik,38.886996,-77.17619,,1.0,,,1.0,True,22046,1,0,0,1,0,1
+125,TLC Laser Eye Centers,"1801 K Street Northwest b100, Washington",,b5ff0da2f1755ba0e5214856fe4f722ac817814e,Lasik,38.9029036,-77.0419334,,2.0,,4.0,1.0,True,20006,1,1,1,1,1,1
+126,Whitten Laser Eye,"37767 Market Drive Suite 103, Charlotte Hall",,e5f89902016a7be9a76a925cd290bd215562741e,Lasik,38.494594,-76.772171,,1.0,,4.8,1.0,True,20622,0,0,0,0,0,0
+127,Eye Doctors of Washington,"1016 16th Street Northwest, Washington",,8d8c52b81252f4336e3100e8a6dca392c3171b11,Lasik,38.9032665,-77.0369072,,5.0,,4.8,1.0,True,20036,1,1,1,1,1,1
+128,Katzen Eye Group,"301 Saint Paul Place #902, Baltimore",,d66e6e1c8162c08364235c0eb748c2c635ad6faa,Lasik,39.2928444,-76.6132465,,1.0,,3.0,1.0,True,21202,0,0,0,0,0,0
+129,Baltimore Washington Eye Center,"200 Hospital Drive Suite 600, Glen Burnie",,654e47bcf48f42b9f0bece8906b7746b3cf9fdd9,Lasik,39.1386466,-76.6203205,,4.0,,4.5,1.0,True,21061,0,0,0,0,0,0
+130,"Andrew E. Holzman, MD FACS","7930 Jones Branch Drive #250, McLean",,cfdc2416da72a614ab8311c77daa8ac03853cf18,Lasik,38.9280922,-77.2151232,,1.0,,4.9,1.0,True,22102,0,0,0,0,0,1
+131,"Andrew E. Holzman, MD, FACS","11200 Rockville Pike #150, Rockville",,4a4f5d44c2ccdb8606a9e4e98723ee8ce2c21eed,Lasik,39.040869,-77.110462,,1.0,,5.0,1.0,True,20852,0,0,0,0,0,0
+132,The Eye Center,"8316 Arlington Boulevard, Fairfax",,3d5168487cceebec9aa315085d142cc656d33a0e,Lasik,38.8665002,-77.2323533,,4.0,,5.0,1.0,True,22031,0,0,0,0,0,0
+133,The Eye Center,"21475 Ridgetop Circle #300, Sterling",,3fa120e11b709404fa5cde8bf31f6fbbd44e0bc3,Lasik,39.0319196,-77.4077432,,4.0,,3.8,1.0,True,20166,0,0,0,0,0,0
+134,New Era Eyecare Optometrists,"20789 Great Falls Plaza, Sterling",,71d5e1dc880889f846ca5e1bb845d32c5453a954,Annual Eye Exams,39.0395866,-77.3581066,,2.0,,,2.0,True,20165,0,0,0,0,0,0
+135,Contact Lens Associates,"7305 Baltimore Avenue, College Park",,d54f53bb197867846ac45db60686d85fb205f7c7,Contact Lens,38.979048,-76.937346,,2.0,,3.8,2.0,True,20740,1,0,0,1,0,1
+136,"Stuart D. Schatz, OD","7305 Baltimore Avenue # 202, College Park",,ad14127744afede5a75bf6da10e4812bc7de9ab8,Contact Lens,38.979048,-76.9373461,,1.0,,2.8,2.0,True,20740,1,0,0,1,0,1
+137,America's Best Contacts & Eyeglasses,"2950 Donnell Drive, Forestville",,1684fa77370fdae523e9b4c7e17896c91c12a41b,Contact Lens,38.8477739,-76.8825922,,1.0,,3.0,2.0,True,20747,0,0,0,0,0,0
+138,Rosslyn Eye Associates,"1700 North Moore Street #300, Arlington",,6ede9983b1b3ab15b019307c62ccb788a9b58381,Contact Lens,38.8956482,-77.0718924,,1.0,,4.8,2.0,True,22209,1,1,1,1,1,1
+139,Target Optical,"6100 Arlington Boulevard, Falls Church",,a1940483e261f15af2f12aabc83c46195a658665,Contact Lens,38.86852,-77.142044,,1.0,,4.8,2.0,True,22044,1,0,0,1,0,1
+140,Visionworks,"11110 Mall Circle, Waldorf",,4d11b67023191cf374dbaad3777197e50572acb9,Contact Lens,38.6173111,-76.9252776,,1.0,,2.6,2.0,True,20603,0,0,0,0,0,0
+141,A Visual Affair,"1101 South Joyce Street, Arlington",,cb593a2f2a5cd3b72876935bc9bce0a734e13775,Contact Lens,38.8647525,-77.0625287,,1.0,,4.6,2.0,True,22202,1,1,1,1,1,1
+142,JCPenney Optical,"11801 Fair Oaks Mall, Fairfax",,2a5ca808a3a0d9360e3df76c5e3d68ae995b6783,Contact Lens,38.8620198,-77.3599941,,1.0,,,2.0,True,22033,0,0,0,0,0,0
+143,JCPenney Optical,"3500 East-West Highway, Hyattsville",,5c4897e084f757997d7efd2e51b1b38281c322a9,Contact Lens,38.9686274,-76.9575033,,1.0,,3.7,2.0,True,20782,1,0,0,1,0,1
+144,Bethesda Vision Care,"4300 E West Hwy, Bethesda",,fe83e5ac0a672f74df0119016c84bf744f19e5a5,Contact Lens,38.9855382,-77.0870537,didn't realize optometrists can do eye disease/some neuro stuff just like ophthalmologists,5.0,,4.6,1.0,True,20814,1,0,0,1,0,1
+145,Roland Park Vision Services,"409 West Cold Spring Lane, Baltimore",,de5da6c89f4e945c1527adc2a8a6f109fbffaa94,Contact Lens,39.3443933,-76.63056,optometrists ,2.0,,4.6,1.0,True,21210,0,0,0,0,0,0
+146,Washington Eye Doctors,"900 17th Street Northwest #400, Washington",,b630a7eb9385b9485327a600c8fff41170d12ec2,Contact Lens,38.9017524,-77.0397328,,2.0,,4.1,1.0,True,20006,1,1,1,1,1,1
+147,The Glaucoma Center Pc,"17001 Science Drive #120, Bowie",,27648f586542b4aeb3427bdd71a58a36386a96ea,Glaucoma Screening,38.9633094,-76.7099198,,3.0,,4.2,1.0,True,20715,0,0,0,0,0,0
+148,The Naderi Center,"297 Herndon Parkway #101, Herndon",,a78cbb6cdc96eba9a200636509280a11f66cb450,BOTOX Facial Injections,38.9672774,-77.3712613,,3.0,,4.8,1.0,True,20170,0,0,0,0,0,0
+149,Shervin Naderi MD,"5454 Wisconsin Avenue, Chevy Chase",,25e00dede4a826c2ec6014b2f08c58c26c07214c,BOTOX Facial Injections,38.962592,-77.087259,,1.0,,4.9,1.0,True,20815,1,1,0,1,0,1
+150,Silk Vision & Surgical Center,"3301 Woodburn Road #308, Annandale",,e89ccbad352c3ba7fd45683bd5a30ce183f6babe,Cataract Surgery,38.8538488,-77.2255823,,2.0,,4.9,1.0,True,22003,0,0,0,0,0,0
+151,Northern Virginia Eye Surgery Center,"2710 Prosperity Avenue, Fairfax",,2bdd664dcd00579a09c6fe779bd91e9f420a215c,Cataract Surgery,38.878703,-77.237004,,24.0,,5.0,1.0,True,22031,0,0,0,0,0,0
+152,Silk Vision & Surgical Center,"5130 Duke Street #9, Alexandria",,032d8466b6ceeda5e1df35eecb44c114ab1b07e8,Cataract Surgery,38.8110388,-77.1211955,,2.0,,,1.0,True,22304,1,0,0,1,0,1
+153,"Dr. Lawrence S. Frank, MD","121 Congressional Lane, Rockville",,ea76de88f60a314a6f4aaee33eb1eff78e0b93a8,Cataract Surgery,39.0634786,-77.1279478,,1.0,,,1.0,True,20852,0,0,0,0,0,0
+154,Solomon Eye Physicians & Surgeons,"14999 Health Center Drive, Bowie",,714c25ee3b1d076e7397660a71350c7a4765845c,Cataract Surgery,38.9491843,-76.7459026,,6.0,,5.0,1.0,True,20716,0,0,0,0,0,0
+155,Solomon Eye Associates,"7930 Jones Branch Drive Suite 250, McLean",,f76fbf3bad965a758fe993218ba6f3b88d2d0758,Cataract Surgery,38.928601,-77.215712,,6.0,,,1.0,True,22102,0,0,0,0,0,1
+156,Eye Physicians and Surgeons Inc,"3031 Javier Rd # 300, Fairfax",,91789f3c503c58cbe9d146f13ea3f42c8531dfac,Cataract Surgery,38.8665845,-77.2349539,,3.0,,4.3,1.0,True,22031,0,0,0,0,0,0
+157,Shady Grove Ophthalmology,"9715 Medical Center Drive, Rockville",,1414f77b68a0d261757efa526649a35ed1b4024b,Cataract Surgery,39.0991264,-77.1978428,,1.0,,5.0,1.0,True,20850,0,0,0,0,0,0
+158,Scott Maria C MD,"2002 Medical Parkway #320, Annapolis",,8b603243c8f46c19a983ca5e69ae490afab784a6,Cataract Surgery,38.9905373,-76.5374558,,1.0,,,1.0,True,21401,0,0,0,0,0,0
+159,Anne Arundel Eye Center,"127 Lubrano Drive, Annapolis",,362b3aa047532d7a2e20aa94e6d0abf6eb2c610f,Cataract Surgery,38.9866967,-76.5517156,,3.0,,3.0,1.0,True,21401,0,0,0,0,0,0
+160,"Eye Surgeons & Opthalmologist - Walter Qiang Wang, MD","611 South Carlin Springs Road #208, Arlington",,210a67da7d8b8becadc0f730d299635766263ea0,Cataract Surgery,38.860461,-77.128295,,1.0,,5.0,1.0,True,22204,1,1,0,1,0,1
+161,Solomon Eye Physicians & Surgeons,"7500 Hanover Parkway #101, Greenbelt",,5323a4816c8b6715d77c84e1f3eae7331507768d,Cataract Surgery,38.992709,-76.8757509,,6.0,,3.0,1.0,True,20770,0,0,0,0,0,0
+162,Grochmal Eye Center,"405 Frederick Road #102, Catonsville",,3ef2807238109676ee72bdc13cd6f70bb060f75e,Cataract Surgery,39.2719191,-76.727249,,1.0,,,1.0,True,21228,0,0,0,0,0,0
+163,"Jay C. Grochmal, MD, PA","405 Frederick Road #102, Catonsville",,86c88940dff484f03791eb81be6c4376ff6f88de,Cataract Surgery,39.2721,-76.727169,,1.0,,5.0,1.0,True,21228,0,0,0,0,0,0
+164,Rostami Oculo- Facial Plastic Consultants,"1860 Town Center Drive #250, Reston",,9b6f65f5b0e842d76836eef19249fe88f397adef,Cosmetic Eyelid Surgery,38.961692,-77.366311,,1.0,,5.0,1.0,True,20190,0,0,0,0,0,0
+165,"John J.W. Lee, MD, FACS : Facial Plastic Surgeon","10401 Georgia Avenue, Silver Spring",,43f68f24bb0a19f1fc615dbd281e9668a0de72c6,Cosmetic Eyelid Surgery,39.0255532,-77.0457846,,1.0,,5.0,1.0,True,20902,0,0,0,0,0,1
+166,Dr. Soheila Rostami,"1650 Tysons Boulevard #100, McLean",,79f60c824bb2e5ae8839bc1510eab1b62a95c37e,Cosmetic Eyelid Surgery,38.9250748,-77.2233982,,1.0,,,1.0,True,22102,0,0,0,0,0,0
+167,Victoria Plastic Surgery Center,"8503 Arlington Boulevard #130, Fairfax",,5a5ac2e6d7632d3f875149de27129c8f26db1658,Cosmetic Eyelid Surgery,38.8648585,-77.2392993,,1.0,,2.7,1.0,True,22031,0,0,0,0,0,0
+168,"Dr. Elba M. Pacheco, MD","692 Ritchie Highway #2b, Severna Park",,dba9157a189b568cdc81c958d6ab9e074a5db1dd,Cosmetic Eyelid Surgery,39.070706,-76.539873,,1.0,,1.0,1.0,True,21146,0,0,0,0,0,0
+169,"Houtan Chaboki, MD","2300 M Street Northwest, Washington",,2dd7b53989ca726f1e0da67b6dd1a57c2c10dd6f,Cosmetic Eyelid Surgery,38.904902,-77.050739,,1.0,,4.9,1.0,True,20037,1,1,1,1,1,1
+170,Dr. Steven B. Hopping,"2311 M street, NW Suite 503, Washington",,3adcb855aad1ddf4c24e43c1731a013b102d2a83,Cosmetic Eyelid Surgery,38.9054302,-77.0507011,,1.0,,4.7,1.0,True,20037,1,1,1,1,1,1
+171,"Houtan Chaboki, MD","5215 Loughboro Road Northwest #210, Washington",,753b8080e7d622cffe9efb23e4ae0371c9c49eb0,Cosmetic Eyelid Surgery,38.9370992,-77.1074782,,1.0,,,1.0,True,20016,1,1,0,1,1,1
+172,"Dr. Maryam Nazemzadeh, MD","1860 Town Center Drive #250, Reston",,b6fc3e13baf86ded7521105820c2fd978cae6e89,Cosmetic Eyelid Surgery,38.9616858,-77.3663486,,1.0,,,1.0,True,20190,0,0,0,0,0,0
+173,Potomac Eye Surgeons,"11500 Lake Potomac Drive, Potomac",,236a7db46d801ba4c61cc46ceebcb994dceacd95,Cosmetic Eyelid Surgery,39.0440735,-77.2529492,,2.0,,,1.0,True,20854,0,0,0,0,0,0
+174,Michael P Vincent MD FACS,"15245 Shady Grove Road Suite 155, Rockville",,6f8b831dca506dd421b0b753d7e64acbf45f4bad,Cosmetic Eyelid Surgery,39.1082052,-77.187888,,1.0,,4.8,1.0,True,20850,0,0,0,0,0,0
+175,Eye Plastic Associates,"3700 Joseph Siewick Drive # 400, Fairfax",,f3eccdf6b01827947fb94f9659d9fef15a1d6e52,Cosmetic Eyelid Surgery,38.883668,-77.381499,,1.0,,,1.0,True,22033,0,0,0,0,0,0
+176,Chesapeake Eye Care & Laser: Zwick Orin MD,"2002 Medical Parkway # 320, Annapolis",,25c37009e50e3ed991906631a406fc85f86c1e0e,Cosmetic Eyelid Surgery,38.9905373,-76.5374558,,1.0,,,1.0,True,21401,0,0,0,0,0,0
+177,Cosmetic Surgery Associates,"6430 Rockledge Drive #100, Bethesda",,50025cd84d650e701313dd241313efc3fdfa7091,Cosmetic Eyelid Surgery,39.025524,-77.133446,,3.0,,5.0,1.0,True,20817,0,0,0,0,0,0
+178,Cosmetic Surgery Associates,"1515 Chain Bridge Road #310, McLean",,f62c5c2bfabdc7731a2da38169bf0965017f14cb,Cosmetic Eyelid Surgery,38.930321,-77.181849,,3.0,,5.0,1.0,True,22101,1,0,0,1,0,1
+179,Aesthetica Cosmetic Surgery & Laser Center,"19500 Sandridge Way Suite 350, Leesburg",,bace1b1315bd5d19440d6b5d45e8a9953bf0fc8a,Cosmetic Eyelid Surgery,39.0762607,-77.4803081,,1.0,,5.0,1.0,True,20176,0,0,0,0,0,0
+180,"Dr. William H. Lindsey, MD","1860 Town Center Drive, Reston",,3d7faad26954b957ee06e3d9213c471a81ce7157,Cosmetic Eyelid Surgery,38.961695,-77.3663141,,1.0,,,1.0,True,20190,0,0,0,0,0,0
+181,"Sheila Longdeck, RN","1860 Town Center Drive #250, Reston",,0870d186987a364fa85812fae9f7c9e3ba492f69,Cosmetic Eyelid Surgery,38.9616858,-77.3663486,,1.0,,,1.0,True,20190,0,0,0,0,0,0
+182,Columbia LASIK & PRK Laser Eye Surgery - LasikPlus,"10025 Governor Warfield Parkway #103, Columbia",,f21d257e9ee11fe620d2c6851b96838024791a09,Laser Vision Correction,39.219513,-76.859926,,2.0,,5.0,1.0,True,21044,0,0,0,0,0,0
+183,TLC Laser Eye Centers,"7538 Limestone Drive, Gainesville",,230e11bdd14212428ee639d2d0cdf3b6c413d0b5,Laser Vision Correction,38.7938842,-77.600544,,2.0,,5.0,1.0,True,20155,0,0,0,0,0,0
+184,TLC Laser Eye Centers,"7930 Jones Branch Drive #250, McLean",,1ebc7b5f18e6d0fa9aa52e4fd7b7024f3b71b27f,Laser Vision Correction,38.9278305,-77.2151227,,2.0,,4.8,1.0,True,22102,0,0,0,0,0,1
+185,TLC Laser Eye Centers,"2002 Medical Parkway #300, Annapolis",,5d3855d8f334beb42686c7f9683d56d7ceb70ba0,Laser Vision Correction,38.9905373,-76.5374558,,2.0,,4.0,1.0,True,21401,0,0,0,0,0,0
+186,TLC Laser Eye Centers,"11200 Rockville Pike #150, Rockville",,54de29db9703a89ecc7de557070a5bda39b48012,Laser Vision Correction,39.040825,-77.1108308,,2.0,,5.0,1.0,True,20852,0,0,0,0,0,0
+187,NewView Laser Eye Center,"12110 Sunset Hills Road #50, Reston",,dcf9abf5726be3fed1e88aae0e41482d9b5d7e6b,Laser Vision Correction,38.9552916,-77.364403,,2.0,,4.6,1.0,True,20190,0,0,0,0,0,0
+188,Vision Correction Center,"5454 Wisconsin Avenue, Chevy Chase",,c51fdf2df5e4629115f06cdadb47879f0469588d,Laser Vision Correction,38.9626779,-77.0869396,,13.0,,,1.0,True,20815,1,1,0,1,0,1
+189,Liberty Laser Eye Center,"8321 Old Courthouse Road, Vienna",,213c465ae43473e59663d2cd349b5984dfc9ace2,Laser Vision Correction,38.913993,-77.233094,,1.0,,5.0,1.0,True,22182,0,0,0,0,0,0
+190,Whitten Laser Eye,"4910 Massachusetts Avenue Northwest #21, Washington",,80222083820b1f3f5a95a6647df0581d5b630501,Laser Vision Correction,38.9459762,-77.0978357,,2.0,,5.0,1.0,True,20016,1,1,0,1,1,1
+191,Physicians Eye Care Center,"1001 Pine Heights Avenue # 101, Baltimore",,c544941e9a8c8bad7441e99bc4b42c82c81796fe,Laser Vision Correction,39.270609,-76.6757592,,6.0,,3.5,1.0,True,21229,0,0,0,0,0,0
+192,Chesapeake Eye Care and Laser Center,"2002 Medical Pkwy # 320, Annapolis",,d24931306786890a3ef39e90b30dac3d134ca48b,Laser Vision Correction,38.9905373,-76.5374558,,9.0,,3.2,1.0,True,21401,0,0,0,0,0,0
+193,Low Vision Center,"4905 Del Ray Avenue #504, Bethesda",,f381a3a0d50f73ae4290d9e0889f20a1802307d9,Low Vision Aids,38.9898216,-77.0993028,,2.0,,3.0,1.0,True,20814,1,0,0,1,0,1
+194,Low Vision Specialists of Maryland and Virginia,"13th Floor, 8000 Towers Crescent Drive, Vienna",,2358e56993d62facfe59a102b97614611dfb08ea,Low Vision Aids,38.914447,-77.219414,,4.0,,,1.0,True,22182,0,0,0,0,0,1
+195,Low Vision Specialists of Maryland and Virginia,"6701 Democracy Boulevard #300l, Bethesda",,ac666ade6a158eb9a56e83b9159073f2254cf54c,Low Vision Aids,39.022437,-77.13684,,4.0,,,1.0,True,20817,0,0,0,0,0,0
+196,Low Vision Specialists of Maryland and Virginia,"1997 Annapolis Exchange #300l, Annapolis",,b39c2a1de1fef9b2131a198affa0330a74e9c978,Low Vision Aids,38.9877449,-76.538197,,4.0,,,1.0,True,21401,0,0,0,0,0,0
+197,Low Vision Specialist of Maryland and Virginia,"7671 Quarterfield Road #100l, Glen Burnie",,70a7652de5374e10e15cce4b0539c41981cbd852,Low Vision Aids,39.1500293,-76.6361641,,4.0,,,1.0,True,21061,0,0,0,0,0,0
+198,Low Vision Specialists of Maryland and Virginia,"5680 King Centre Drive #600, Alexandria",,f31ed5798c85e6857888cc7f8fafdedb77149da4,Low Vision Aids,38.77168,-77.133109,,4.0,,,1.0,True,22315,0,0,0,0,0,0
+199,Low Vision Services,"105 South Alfred Street, Alexandria",,ad41233a1c5c0e93288aa7edefc032d311518754,Low Vision Aids,38.8050659,-77.0494102,,1.0,,,1.0,True,22314,1,0,0,1,0,1
+200,Maryland Center For Neuro,"10724 Little Patuxent Parkway, Columbia",,b5ed18a402ab29a2a8043d7555fb6ef9510e53a1,Neuro-Ophthalmology,39.2148172,-76.8738811,,1.0,,,1.0,True,21044,0,0,0,0,0,0
+201,Todd Goodglick MD,"Barlow Building, 5454 Wisconsin Avenue g, Chevy Chase",,5005ecceb346efbf0a20efd47f6a3c5008c3e544,Neuro-Ophthalmology,38.9625918,-77.0872586,,1.0,,3.7,1.0,True,20815,1,1,0,1,0,1
+202,Dr. Benjamin Joseph Osborne MD,"3800 Reservoir Road Northwest, Washington",,9823c07ef0f8fa79457272c53693b17c9c2f102c,Neuro-Ophthalmology,38.911631,-77.0754004,,1.0,,5.0,1.0,True,20007,1,1,1,1,1,1
+203,Neil R Miller MD,"600 North Wolfe Street, Baltimore",,e85592e2e174c6e0df0651bed24b076228e1db3b,Neuro-Ophthalmology,39.2972451,-76.5922121,,1.0,,5.0,1.0,True,21287,0,0,0,0,0,0
+204,Kolsky Martin P MD,"106 Irving Street Northwest # 321, Washington",,20f63ccb082c58101b41a34b2a22968fadf18c0e,Neuro-Ophthalmology,38.928935,-77.013602,,1.0,,4.7,1.0,True,20010,1,1,1,1,1,1
+205,"Dr. Sonalee Kulkarni, MD","8505 Arlington Boulevard, Fairfax",,38c697515a95a83716080393d2adcfa0efa6b030,Neuro-Ophthalmology,38.8643806,-77.2398866,,1.0,,,1.0,True,22031,0,0,0,0,0,0
+206,"Dr. Brian M. Egan, MD","1800 Town Center Drive, Reston",,fbe09efc17d503cd1399b2c95e8ee307c544916a,Neuro-Ophthalmology,38.9635216,-77.3642949,,1.0,,,1.0,True,20190,0,0,0,0,0,0
+207,Mathews Michaela MD,"419 West Redwood Street # 470, Baltimore",,76d860d1cdc5dc876ea75a40bb76b30212b8bdfb,Neuro-Ophthalmology,39.288337,-76.621836,,1.0,,,1.0,True,21201,0,0,0,0,0,0
+208,"Dr. David M. Katz, MD","3202 Tower Oaks Boulevard #330, North Bethesda",,24ff75490181811c9c06535ef6a15f4edf04b086,Neuro-Ophthalmology,39.0593923,-77.1507183,,1.0,,3.3,1.0,True,20852,0,0,0,0,0,0
+209,Maryland Center For Neuro: Carter Nathaniel MD,"10724 Little Patuxent Parkway #101, Columbia",,e295c702bbb5bd94289c83ffd7eafe4bb6fab033,Neuro-Ophthalmology,39.214817,-76.873881,,1.0,,1.0,1.0,True,21044,0,0,0,0,0,0
+210,"Dr. Craig E. Geist, MD","2150 Pennsylvania Avenue Northwest, Washington",,f3ddfdd27e9139eea62712b6934c98b25735bae5,Neuro-Ophthalmology,38.9017001,-77.0484858,,1.0,,,1.0,True,20037,1,1,1,1,1,1
+211,"Dr. Brian M. Egan, MD","6845 Elm Street, McLean",,48cc3385e467ee7db14b577af7d768e35ec799ad,Neuro-Ophthalmology,38.9363105,-77.1807331,,1.0,,,1.0,True,22101,1,0,0,1,0,1
+212,Jeffery Amy MD,"6231 Leesburg Pike #608, Falls Church",,44adf9d7968dc8e48fc61d62dee40461cba15ecf,Neuro-Ophthalmology,38.8676613,-77.1532354,,1.0,,1.0,1.0,True,22044,1,0,0,1,0,1
+213,Daniel R Gold DO,"600 North Wolfe Street, Baltimore",,334186d454448eebc7c9617e64c1328f5b49cce9,Neuro-Ophthalmology,39.2972451,-76.5922121,,1.0,,,1.0,True,21287,0,0,0,0,0,0
+214,"Eric L Singman MD, PhD","600 North Wolfe Street, Baltimore",,d82494d14ec85d18daec45f7dac6f3216ff898df,Neuro-Ophthalmology,39.2972451,-76.5922121,,1.0,,,1.0,True,21287,0,0,0,0,0,0
+215,"Dr. Nancy F. Vilar, MD","2150 Pennsylvania Avenue Northwest, Washington",,f096e2a827432d1353c37d7e64c65e2adba797d3,Neuro-Ophthalmology,38.90168,-77.048414,,1.0,,5.0,1.0,True,20037,1,1,1,1,1,1
+216,Ophthalmic Plastic & Orbital: Perman Kevin I MD,"7501 Greenway Center Drive # 220, Greenbelt",,3f5d4c9328c57c45b5df4c3ced108f464d5f985d,Ocular Plastic Surgery,38.9901341,-76.8800066,,1.0,,,1.0,True,20770,0,0,0,0,0,0
+217,Ophthalmic Plastic & Orbital: Perman Kevin I MD,"6420 Rockledge Drive # 4300, Bethesda",,ba51fcc87dd82131e70ef0eea8973f2c84ecea5f,Ocular Plastic Surgery,39.0246467,-77.1334927,,1.0,,,1.0,True,20817,0,0,0,0,0,0
+218,Ophthalmic Plastic & Orbital: Cytryn Albert S MD,"6420 Rockledge Drive # 4300, Bethesda",,8b024744a2855d1ed4c82e41cc8da7a25186ba74,Ocular Plastic Surgery,39.0246467,-77.1334927,,1.0,,5.0,1.0,True,20817,0,0,0,0,0,0
+219,"Dr. Kevin R. Scott, MD","3700 Joseph Siewick Drive, Fairfax",,fe0a6793785f0299235a71a2c6ea1e9656eff4d0,Ocular Plastic Surgery,38.8836675,-77.3814989,,1.0,,5.0,1.0,True,22033,0,0,0,0,0,0
+220,The Retina Group of Washington,"10530 Linden Lake Plaza #305, Manassas",,2ef6cd749b7cfc35e42c11c56d94a2ae009fc611,Retina and Vitreous Treatment,38.795549,-77.512474,,27.0,,3.5,1.0,True,20109,0,0,0,0,0,0
+221,Washington Oculoplastics / Chris Thiagarajah MD,"7830 Old Georgetown Rd, Pasquerilla Health Center, Lower Level, Washington",,7fce74e723a98533a98609a3958a2da8e1bb2265,Oculoplastics,38.9136968,-77.0764581,,1.0,,,1.0,True,20007,1,1,1,1,1,1
+222,My Vision Care PLLC,"14130 Noblewood Plaza #105, Off Golansky Blvd, Woodbridge",,8dc6721a0c803d1e19941bedb05c595b61f58c18,pink eye,38.648429,-77.313491,,1.0,,4.9,1.0,True,14130,0,0,0,0,0,0
+223,"Annapolis Allergy and Asthma, LLC","129 Lubrano Drive Suite 200, Annapolis",,c38e94eff1aa5770afb9dde7b9fbf6e77c4cf72d,Allergic conjunctivitis,38.987712,-76.5517649,,1.0,,,1.0,True,21401,0,0,0,0,0,0
+224,"Dr. John R. Karickhoff, MD","313 Park Avenue, Falls Church",,b174380919795e2488019bd38559d7fe1df47f9b,Eye floaters,38.8853129,-77.1738077,,1.0,,5.0,1.0,True,22046,1,0,0,1,0,1
+225,Treatment for Floaters,"3930 Pender Drive #10, Fairfax",,9b41a3d467b7ad9177fc84c8d3948049b6e4bc46,Eye floaters,38.8604412,-77.3341506,,2.0,,,1.0,True,22030,0,0,0,0,0,0
+226,"Randall V. Wong, M.D.","3930 Pender Drive, Fairfax",,6ca9465c93e43ce6e790f01f1187f2589b10a341,Eye floaters,38.8605058,-77.3341768,,1.0,,5.0,1.0,True,22030,0,0,0,0,0,0
+227,Dry Eye Center of Manassas : Dr. Jay J. Lee & Associates,"8386 Sudley Road, Manassas",,faa74fe8744e18fa76abaaec709c43e06e071391,Dry eyes,38.7715301,-77.5075015,,2.0,,,1.0,True,20109,0,0,0,0,0,0
+228,Eye Consultants of Northern Virginia,"8134 Old Keene Mill Road #300, West Springfield",,3ca28328c8d071161a1ba8f4cdb717626214c259,subconjunctival hemmorhage,38.781717,-77.226578,,7.0,,2.7,1.0,True,22152,0,0,0,0,0,0
+229,Black & White Look Optical,"1514 U Street Northwest, Washington",,e6d3e6ea5f55acc7f8e07852e847a0e1ef9767a5,Black eye,38.9168317,-77.0352284,,0.0,,,2.0,True,20009,1,1,1,1,1,1
+230,Optical Fair Inc,"7843 Eastpoint Mall, Baltimore",,d774db4a4d1d57c688d24b563e6e9deab97bb100,Lazy eye,39.2935853,-76.5093872,,1.0,,2.1,2.0,True,21224,0,0,0,0,0,0
+231,Wilmer Eye Institute,"600 North Wolfe Street, Baltimore",,1b8edc56af1c8b46f3139219a298e482395739c9,Eye emergencies,39.2972451,-76.5922121,,13.0,,3.7,1.0,True,21287,0,0,0,0,0,0
+232,Prevention of Blindness Society of Metropolitan Washington Eyeglasses Clinic,"2216 Rhode Island Avenue Northeast, Washington",,272e9d29bbd24a56b12f91b68e242fdf49c6aed1,Blindness,38.9306889,-76.9734777,**seem to offer walk in appointments even though it looks primarily to be a tier 2,4.0,,3.0,1.0,True,20018,1,1,0,1,1,1
+233,Prevention of Blindness Society of Metropolitan Washington,"233 Massachusetts Avenue Northeast, Washington",,59284229cac200d710975424df9aeda8c6b24f6c,Blindness,38.894388,-77.002535,,4.0,,3.5,1.0,True,20002,1,1,1,1,1,1
+234,See Clearly Vision,"8138 Watson Street, Tysons",,8cea854f60df8ac4b27b3056f08b68b76c598ddc,blurry vision,38.9180947,-77.2267279,lasik,7.0,,3.5,1.0,True,22102,0,0,0,0,0,0
+235,Medical Eye Center,"3402 Olandwood Court, Olney",,6a09c7fc6aac4f15f88c70842b3dce1320af56fd,eye Sarcoidosis,39.1554905,-77.0672994,,7.0,,3.0,1.0,True,20832,0,0,0,0,0,0
+236,Visual Learning Center,"17904 Georgia Avenue #203, Olney",,57c6653b2027b371ed6c744dbe51927cea7124f4,eye problems baby,39.1500207,-77.0671495,vision problems that effect learning,1.0,,5.0,1.0,True,20832,0,0,0,0,0,0
+237,Warby Parker,"3225 M Street Northwest, Washington",,282a120d3fe5c54cfb75a0b1fdd71fba19abdfa0,Glasses,38.9053647,-77.063722,,0.0,,4.2,3.0,True,20007,1,1,1,1,1,1
+238,LensCrafters,"11784 Lee Jackson Memorial Highway, Fairfax",,dbe964fb9c336d66fdb51aa398918db91ef0c661,Glasses,38.863533,-77.358131,,1.0,,3.4,2.0,True,22033,0,0,0,0,0,0
+239,For Eyes Optical,"444 West Broad Street m, Falls Church",,2f91d0f209c0f2fa1f814330655338d6f80ce621,Glasses,38.8861467,-77.1769014,,1.0,,4.3,2.0,True,22046,1,0,0,1,0,1
+240,SEE,"1261 Wisconsin Avenue Northwest, Washington",,10df2f421a815b6126358a8fece901700e510f13,Glasses,38.9065428,-77.0627452,,0.0,,3.2,2.0,True,20007,1,1,1,1,1,1
+241,America's Best Contacts & Eyeglasses,"11654 Sudley Manor Drive, Manassas",,e2f167117c429f80570a78533bb7e93946f78d3c,Glasses,38.7861581,-77.5174084,,0.0,,3.1,2.0,True,20109,0,0,0,0,0,0
+242,LensCrafters,"8093 Tysons Corner Center, McLean",,f8c20124792874bfe516a6baa5fead9c1cc01263,Glasses,38.916513,-77.223183,,0.0,,3.2,2.0,True,22182,0,0,0,0,0,0
+243,LensCrafters,"701 Russell Avenue, Gaithersburg",,a8b06ddd731271d4ea032001c7a8202063975c21,Glasses,39.154241,-77.203993,,0.0,,3.3,2.0,True,20877,0,0,0,0,0,0
+244,LensCrafters,"7101 Democracy Boulevard #2218, Bethesda",,8fe35ef8a11df1c7973d422fa4415073934b7009,Glasses,39.024638,-77.145522,,0.0,,3.0,2.0,True,20817,0,0,0,0,0,0
+245,America's Best Contacts & Eyeglasses,"11139 Lee Highway, Fairfax",,b3f9f3c83dfb937388fccf171901a44cbbaf978a,Glasses,38.8515654,-77.3288962,,0.0,,3.2,2.0,True,22030,0,0,0,0,0,0
+246,Georgetown Optician,"1307 Wisconsin Avenue Northwest, Washington",,e69b905b773bbe4b2ba4685b5397208926ed977f,Glasses,38.907093,-77.0629,,1.0,,3.9,2.0,True,20007,1,1,1,1,1,1
+247,Warby Parker,"807 Aliceanna Street, Baltimore",,f57e481df6c1fbe6274d45b5e8b1160e59adb178,Glasses,39.2830949,-76.60099,,0.0,,4.8,3.0,True,21202,0,0,0,0,0,0
+248,The Eye Surgery Center,"8905 Fairview Road # 100, Silver Spring",,5d481b0f24167c15036c78efb619f83c24f3f4cc,Eye Surgery,39.0004963,-77.0285498,,9.0,,,1.0,True,20910,1,0,0,1,0,1
+249,Palisades Eye Surgery Center,"4831 Cordell Avenue, Bethesda",,69c1e999d9fa3d5a782158a45fe1402ffb6d5aad,Eye Surgery,38.990696,-77.0972409,,30.0,,4.0,1.0,True,20814,1,0,0,1,0,1
+250,Maryland Eye Associates,"800 North Prince Frederick Boulevard, Prince Frederick",,d44b8222eff0c25ba53141a9a9501d9a8e2d13d5,Eye Surgery,38.5543748,-76.5974855,,5.0,,,1.0,True,20678,0,0,0,0,0,0
+251,Washington Eye Physicians and Surgeons,"711 Wayne Avenue, Silver Spring",,855536e7672680a9bafa4062f50274e20b7b2df0,Eye Surgery,38.997504,-77.021977,,2.0,,,1.0,True,20910,1,0,0,1,0,1
+252,The Eye Center,"1901 North Beauregard Street #100, Alexandria",,0d2270785114f9847c09aeab8893bffc95929180,Eye Surgery,38.833289,-77.120333,,2.0,,4.5,1.0,True,22311,1,0,0,1,0,1
+253,Eye Consultants of Northern Virginia PC,"2296 Opitz Boulevard # 120, Woodbridge",,b688d661ba4803df8c6242ee23429ff7ceafbf45,Eye Surgery,38.6369236,-77.2862327,,7.0,,3.4,1.0,True,22191,0,0,0,0,0,0
+254,Premier Optometric Services,"7373 Boston Boulevard, Springfield",,d1ce786410b87129da4e47e1f57e090d4ed0b91e,optometrist,38.739419,-77.197242,,1.0,,5.0,2.0,True,22153,0,0,0,0,0,0
+255,eye2eye Optometry Corner,"1502 Mount Vernon Avenue, Alexandria",,d8ad4c02278cd3761f90625ff3086cc150c5780a,optometrist,38.819893,-77.057663,,3.0,,4.7,2.0,True,22301,1,0,0,1,0,1
+256,Family Optometric Associates,"8651 John J Kingman Road, Fort Belvoir",,953abd4958a8d823f66ab207b7eec04ccaed48ff,optometrist,38.7245358,-77.1502044,,2.0,,,2.0,True,22060,0,0,0,0,0,0
+257,Costco Vision Center,"1200 South Fern Street, Arlington",,3bb115767d4c63f17e19a51d97a2dc34c792c6ef,optometrist,38.8611425,-77.0575892,,1.0,,4.0,2.0,True,22202,1,1,1,1,1,1
+258,Costco Vision Center,"880 Russell Avenue, Gaithersburg",,3ce8445a54780236cb83600303e68ca96f8e50eb,optometrist,39.1558507,-77.2144682,,1.0,,2.8,2.0,True,20879,0,0,0,0,0,0
+259,Costco Vision Center,"21398 Price Cascades Plaza, Sterling",,940cc1a51dc8e2cc915e3ebd47d08d820ec6cefb,optometrist,39.0235927,-77.4011055,,1.0,,,2.0,True,20164,0,0,0,0,0,0
+260,Visual Health Doctors of Optometry,"3012 Wilson Boulevard, Arlington",,055dcafe9111d852520152d41082eb7c3ba9631c,optometrist,38.8876063,-77.0945983,,7.0,,4.4,2.0,True,22201,1,1,1,1,1,1
+261,Visual Health Doctors of Optometry,"10690 Fairfax Boulevard, Fairfax",,e576d0858b4c8426d8167da20168a898cb61c31d,optometrist,38.8566077,-77.3139352,,7.0,,4.0,2.0,True,22030,0,0,0,0,0,0
+262,Visual Health Doctors of Optometry,"14901 Potomac Town Place, Woodbridge",,19c4af203993800d475f4a2a6ee62bb2e369a488,optometrist,38.6303245,-77.2882064,,7.0,,3.6,2.0,True,22191,0,0,0,0,0,0
+263,Visual Health Doctors of Optometry,"6828 Springfield Mall, Springfield",,640bd48a11ef455f342eabf60b67c05e15a3e7ab,optometrist,38.7737566,-77.1756298,,7.0,,4.2,2.0,True,22150,0,0,0,0,0,0
+264,Visual Health Doctors of Optometry,"1927 Old Gallows Road, Vienna",,1e9581665ed96f90b28ed8b4e70df8679a309229,optometrist,38.9118655,-77.2213622,,7.0,,3.8,2.0,True,22182,0,0,0,0,0,0
+265,Northern Virginia Doctors of Optometry,"1632-A Belle View Boulevard, Alexandria",,d4188b4aa69bec60fc462fbccb02fc8ac73a5330,optometrist,38.770239,-77.061724,,11.0,,4.5,2.0,True,22307,0,0,0,0,0,1
+266,Northern Virginia Doctors of Optometry,"7263-E Arlington Boulevard, Falls Church",,be73f99f53ab56daa700e11068f093ade6f01809,optometrist,38.866025,-77.193002,,11.0,,4.5,2.0,True,22042,1,0,0,1,0,1
+267,Northern Virginia Doctors of Optometry,"1800 South Bell St, C-1819, Arlington",,c46e961e53429ec6b7e5ea95017a275e7bb7e293,optometrist,38.857857,-77.055713,,11.0,,4.5,2.0,True,22202,1,1,1,1,1,1
+268,Northern Virginia Doctors of Optometry,"11656 Plaza America Drive, Reston",,23de1ccee5f13cd1f3b8b12ec2c7d9d3e536555e,optometrist,38.9594269,-77.3368378,,11.0,,3.0,2.0,True,20190,0,0,0,0,0,0
+269,All Eyes Optometrists,"6343 Multiplex Drive, Centreville",,3a51a9c1b7c510b2f169e219e29276cb402efa1c,optometrist,38.8275042,-77.4393797,,5.0,,5.0,2.0,True,20121,0,0,0,0,0,0
+270,All Eyes Optometrist,"3950 University Drive #211, Fairfax",,ddac992a30f2d2b2c883f24262e3eb3e48f1e99f,optometrist,38.8473224,-77.305337,,5.0,,4.4,2.0,True,22030,0,0,0,0,0,0
+271,VisualEyes Optical Boutique,"4018 Campbell Avenue, Arlington",,c5604ba33b902fe78fb004a95fc9744328ab33e2,optometrist,38.8406172,-77.0874616,,1.0,,3.8,2.0,True,22206,1,1,0,1,0,1
+272,Visual Eyes Optometrists,"9600 Main Street H, Fairfax",,efc0908666e8f5686eb3803c3ab883fde1ab6cb9,optometrist,38.842572,-77.274244,,1.0,,3.7,2.0,True,22031,0,0,0,0,0,0
+273,Visionworks Doctors Of Optometry,"21031 Tripleseven Road Suite 170, Sterling",,7101696b9f0f5c10029161b7560e24ebbe5617a7,optometry,39.0347202,-77.4072121,,1.0,,3.7,2.0,True,20165,0,0,0,0,0,0
+274,Visionworks Doctors Of Optometry - Mount Vernon Plaza,"7702 Richmond Highway H, Alexandria",,a23a8c32ae6d7870fb804284012a077762d5320b,optometry,38.749395,-77.0847841,,1.0,,2.5,2.0,True,22306,0,0,0,0,0,0
+275,Visionworks Doctors Of Optometry - Springfield Town Center,"6535 Springfield Mall, Springfield",,53b8e9d0b090650eeab81f98d90f20da88f73388,optometry,38.774014,-77.188517,,1.0,,4.8,2.0,True,22150,0,0,0,0,0,0
+276,Visionworks Doctors Of Optometry - Village At Leesburg,"1607 Village Market Boulevard Southeast #124, Leesburg",,cb4a0b9a826794bd0bc1f4d2eee4f1f1eea91a88,optometry,39.0881285,-77.5232796,,1.0,,4.0,2.0,True,20175,0,0,0,0,0,0
+277,Woolf & Woolf Optometry,"2446 Mountain Road, Pasadena",,fdb746174ddaa8446b811bb1cfc97723d08e3290,optometry,39.1289543,-76.5467494,,6.0,,4.9,2.0,True,21122,0,0,0,0,0,0
+278,Visionworks Doctors Of Optometry - Bailey's Crossroads,"3556-A South Jefferson Street, Bailey's Crossroads",,b3bc6fb307c74c1da3646445879b0eb937b73bc1,optometry,38.8478448,-77.1206976,,1.0,,3.8,2.0,True,22041,1,0,0,1,0,1
+279,Visionworks Doctors Of Optometry - Woodland Park Crossing,"Woodland Park Crossing Shopping Center, 12950 Highland Crossing Drive A, Herndon",,970807f94c3579ae87a234a9be9cf714094526ad,optometry,38.949541,-77.3943559,,1.0,,2.1,2.0,True,20171,0,0,0,0,0,0
+280,Seidman David MD,"6231 Leesburg Pike, Falls Church",,e34a5898881d5903ccbb518e0ef14115bd05b116,ophthalmologist,38.8677648,-77.1531041,,1.0,,,1.0,True,22044,1,0,0,1,0,1
+281,"Harry H. Huang, M.D., P.A.","5630 Shields Drive, Bethesda",,a88824aa20c0111cbd0bdae1ec2632db10cbf0ab,ophthalmologist,39.0070842,-77.1128447,,1.0,,4.0,1.0,True,20817,1,0,0,1,0,1
+282,Champlain Ophthalmology,"6430 Rockledge Dr # 270, Bethesda",,a9e19ffe814d9280490d54a40a4cdd1cfa4382aa,ophthalmologist,39.0254741,-77.1334685,,3.0,,,1.0,True,20817,0,0,0,0,0,0
+283,American Eye Care Center,"8650 Georgia Avenue, Silver Spring",,5e6aad618f76812b9a9a4d1afa6050c3e620fd86,ophthalmologist,38.9966662,-77.0290323,,2.0,,4.9,1.0,True,20910,1,0,0,1,0,1
+284,"Capital Vision, Amy Kotecha MD","3801 Fairfax Drive Suite 74, Arlington",,66d93819d18ecf4046acf6282f3bc2ece6038af5,ophthalmologist,38.8833735,-77.1049746,,1.0,,4.4,1.0,True,22201,1,1,1,1,1,1
+285,Eye Specialists & Surgeons of Northern Virginia - Dr John Josephson MD,"3903 Fair Ridge Drive #209, Fairfax",,87bdcb9ace7bc0b4020f7934b59be920aa471cbe,ophthalmologist,38.8732804,-77.3726481,,1.0,,5.0,1.0,True,22033,0,0,0,0,0,0
+286,"Robert H. Chu, MD / Washington Eye Consultants","6333 Executive Boulevard, Rockville",,72faaa7690d45e6819decea1c42161c8f38123b3,ophthalmologist,39.0500249,-77.1250457,,1.0,,4.7,1.0,True,20852,0,0,0,0,0,0
+287,"Dr. Michael H. Goldberg, MD","8134 Old Keene Mill Road #300, Springfield",,96b5fcaeabd23b45ae6aab6ec409040ef46d34f7,ophthalmologist,38.781717,-77.226578,,1.0,,5.0,1.0,True,22152,0,0,0,0,0,0
+288,"Dr. Ahmed A. Nasrullah, MD","19415 Deerfield Avenue #106, Leesburg",,4bc2fea513876502d29144a91671d1ae3986b77f,ophthalmologist,39.0792746,-77.47756,,1.0,,4.8,1.0,True,20176,0,0,0,0,0,0
+289,Anderson Ronald L MD,"2041 Martin Luther King Junior Avenue Southeast # 102, Washington",,7dcd3cdfd3ab6564c44cc9453edaac9f9d97080a,Ophthalmology,38.8659837,-76.9897997,,1.0,,3.7,1.0,True,20020,0,0,0,0,0,0
+290,"Daniel Pluznik, M.D.","3, 1155 21st Street Northwest, Washington",,3171b3c791d02f0e4748427f60fb7a9cdb3e0d3a,Ophthalmology,38.904906,-77.046082,,1.0,,,1.0,True,20036,0,0,0,0,0,0
+291,Dao Jennifer B MD,"8134 Old Keene Mill Road, Springfield",,231f6e2dcf3447b997a6aa93c1b81712d1c7a090,Ophthalmology,38.781617,-77.226527,,1.0,,5.0,1.0,True,22152,0,0,0,0,0,0
+292,"Dr. Jacob A. Clark, MD","411 North Washington Street, Alexandria, VA 22314, Alexandria",,3cc90e45c51004dc4487717fc7829aad1c808d93,Ophthalmology,38.808839,-77.0458729,,1.0,,1.0,1.0,True,22314,0,0,0,0,0,0
+293,"Dr. Julie F. Leigh, MD","3020 Hamaker Court, Fairfax",,7a9aabdd7e770b451331ee88cf8965b5b396fe46,Ophthalmology,38.8682723,-77.2371661,,1.0,,,1.0,True,22031,0,0,0,0,0,0
+294,"Dr. Michael B. Rivers, MD","6354 Walker Lane #100, Alexandria",,b3c36d4c794bc4c333dfb3b870db86b3bf753a32,Ophthalmology,38.769018,-77.160808,,1.0,,3.0,1.0,True,22310,0,0,0,0,0,0
+295,"Dr. Pedro M. Rivera-Velazquez, MD","9131 Piscataway Road, Clinton",,540b9cd3d188fa21d6c80ebdff09f366e41c2578,Ophthalmology,38.7652,-76.9015496,,1.0,,3.5,1.0,True,20735,0,0,0,0,0,0
+296,"J. John Woo, M.D.","8233 Old Courthouse Road, Vienna",,f1d313dd0e3592cb8aa6b1980bb6891f0cbb6f1e,Ophthalmology,38.913053,-77.2309427,,1.0,,,1.0,True,22182,0,0,0,0,0,0
+297,"Jeffrey Y.H. Chung, M.D.","14201 Laurel Park Drive, Laurel",,815f82fa5937024972c476344f8f3f8f3dbf6b2d,Ophthalmology,39.0854761,-76.8784321,,1.0,,5.0,1.0,True,20707,0,0,0,0,0,0
+298,"Juliana Y. Park, MD. PC","3020 Hamaker Court # B103, Fairfax",,5eb6f6d3b303703683c059f66f14553a9ef18a89,Ophthalmology,38.8682723,-77.2371661,,1.0,,5.0,1.0,True,22031,0,0,0,0,0,0
+299,"Northern Virginia Eye Physicians: Dr. Wellington Chang, MD","10721 Main Street Suite 3200, Fairfax",,721f14108a53d52a0cae9ea365ca5ea701f8dfee,Ophthalmology,38.8489175,-77.3166617,,1.0,,,1.0,True,22030,0,0,0,0,0,0
+300,"Andrew E. Holzman, MD, FACS","1801 K Street Northwest Ste 500L, Washington",,49f51340f2423f0fb40ca4b8381eeda59cafd718,Lasik,38.902786,-77.042079,,1.0,,,,True,20006,0,0,0,0,0,0
+301,"Anh Nguyen, MD PC","431 Park Avenue #103, Falls Church",,cfc69c1fb3c1b75b987f1462dbdb3d49f302c918,Lasik,38.8869956,-77.1761903,,1.0,,5.0,,True,22046,0,0,0,0,0,0
+302,"Arlene L Murray, MD PA","1100 Mercantile Lane Suite 136, Upper Marlboro",,37309c0880a7e9f9a7457970140ebdf5b6001f12,ophthalmologist,38.905779,-76.838937,,1.0,,,1.0,True,20774,0,0,0,0,0,0
+303,Arlington Eye Care: Ziayee A Wali MD,"1715 North George Mason Drive # 207, Arlington",,df9fa3e77e435f3d35ca210b03c70d5a8c8df4e9,ophthalmologist,38.8904054,-77.1282472,,1.0,,5.0,1.0,True,22205,0,0,0,0,0,0
+304,Arthur L Schwartz MD,"Barlow Building, 5454 Wisconsin Avenue s, Chevy Chase",,93e0e20da30ffc6a535ec7fcb8436d1ebe6d5446,Eye Surgery,38.9625918,-77.0872586,,1.0,,5.0,,True,20815,0,0,0,0,0,0
+305,Associates In Eyecare - Dunn Loring,"2672 Avenir Place, Vienna",,11ee4fd77a4ec7fbc6703f413f814d41402a6231,optometrist,38.881796,-77.2294289,,1.0,,5.0,2.0,True,22180,0,0,0,0,0,0
+306,"Barry Sapperstein, OD","1003 Fairlawn Avenue #24a, Laurel",,81d33bc6408354739d4821abc2fd878a98b3adc6,Lens,39.096539,-76.8561811,,1.0,,5.0,,True,20707,0,0,0,0,0,0
+307,Braun Christina I MD,"8101 Hinson Farm Road #103, Alexandria",,853cdcd8fbc124e52fd747cccc19ad4037dbafd5,ophthalmologist,38.7373379,-77.0774039,,1.0,,3.0,1.0,True,22306,0,0,0,0,0,0
+308,Chevy Chase Surgical Associates PC: Zorc Thomas G MD,"5530 Wisconsin Avenue, Chevy Chase",,041729599771be72ad10f187ac6f60902915f131,Surgical,38.964835,-77.0883076,,1.0,,5.0,,True,20815,0,0,0,0,0,0
+309,Cultura Dermatology & Laser Center: Dr. Eliot Battle,"5301 Wisconsin Avenue Northwest, Washington",,4c38bbffcfdc824616d5fbbcb99bb7e9e92376c6,Laser,38.959179,-77.084421,,1.0,,4.2,,True,20015,0,0,0,0,0,0
+310,"David K Chow, MD","1830 Town Center Drive #210, Reston",,51b124f1113ed3497191e922573d1943aae9dd43,ophthalmologist,38.96321,-77.3650748,,1.0,,4.7,1.0,True,20190,0,0,0,0,0,0
+311,"David Parver, MD (Retina Consultants PC)","1145 19th Street Northwest #500, Washington",,ed5faceed750e129b7ea74de8026bbf451d0d8e4,Retina,38.9050499,-77.0429506,,1.0,,,,True,20036,0,0,0,0,0,0
+312,Dermatologic Surgery Center of DC: Skelsey Maral K MD,"5530 Wisconsin Avenue, Chevy Chase",,c2c4f813478a9f98bfec362a8753feaf2c6cd98f,Surgical,38.9648445,-77.0881933,,1.0,,4.2,,True,20815,0,0,0,0,0,0
+313,"Dr. Ayman Boutros, MD","8316 Arlington Boulevard, Fairfax",,17f238ab6f11f81bbc39a2336aef0d0acc0725f8,Eye Surgery,38.8664716,-77.2322987,,1.0,,,,True,22031,0,0,0,0,0,0
+314,"Dr. Daniel M. Geller, MD","3930 Pender Drive #10, Fairfax",,be4cdadf6dc00a5f4cd9e8d49c88b51ad029dd3c,ophthalmologist,38.86049,-77.334164,,1.0,,,1.0,True,22030,0,0,0,0,0,0
+315,"Dr. Dora Adamopoulos, OD","1502 Mount Vernon Avenue, Alexandria",,d706c92da98d71d08d992ec95b688ff14a7d1b58,optometry,38.8198728,-77.0578144,,1.0,,4.8,2.0,True,22301,0,0,0,0,0,0
+316,"Dr. J Alberto Martinez, MD","11300 Rockville Pike #1202, Rockville",,38719b8d81da9c01151d92e8a65f881b1ec4912a,Cataract Surgery,39.0415201,-77.1117995,,1.0,,5.0,,True,20852,0,0,0,0,0,0
+317,"Dr. James K. Park, MD","4600 John Marr Drive #101, Annandale",,516a5aa8f5888a235c5632b72828a7d8eb1d0853,ophthalmologist,38.8288249,-77.1974921,,1.0,,1.0,1.0,True,22003,0,0,0,0,0,0
+318,"Dr. Janine N. Smith-Marshall, MD","6915 Laurel Bowie Road, Bowie",,cc8fb4641abbd8cb38c0356eb1c85b7224d7728b,ophthalmologist,38.9862134,-76.7570073,,1.0,,2.7,1.0,True,20715,0,0,0,0,0,0
+319,"Dr. Jay E. Katzen, MD","1901 North Beauregard Street #100, Alexandria",,b88f5f148d6e0f6f09661eaa1f614a71bfd46c9a,ophthalmologist,38.833289,-77.120333,,1.0,,,1.0,True,22311,0,0,0,0,0,0
+320,Dr. Joseph Qureshi,"8311 Cherry Lane, Laurel",,fda4cb3c30687ecd9c669cc2135d2248eb43b2f4,ophthalmologist,39.0921785,-76.863538,,1.0,,,1.0,True,20707,0,0,0,0,0,0
+321,"Dr. Lauren Z. Gavaris, MD","4910 Massachusetts Avenue Northwest, Washington",,5b04ddc91f974e89e291e254acb88a318b8acec4,ophthalmologist,38.9460614,-77.0980844,,1.0,,,1.0,True,20016,0,0,0,0,0,0
+322,"Dr. Louis Espejo, od ms Rockville Family Vision Care","1060 Rockville Pike, Rockville",,42a149424e1598e8f1b638711defcb605c425d15,optometrist,39.0724092,-77.1327461,,1.0,,4.9,2.0,True,20852,0,0,0,0,0,0
+323,"Dr. Mary L. Scott, MD","7831 Belle Point Drive, Greenbelt",,4f53ee41fb0a8d8afc3e26161fa5254682a8d9d2,ophthalmologist,38.9981726,-76.889796,,1.0,,,1.0,True,20770,0,0,0,0,0,0
+324,"Dr. Mohammed Elbash, MD","171 Elden Street, Herndon",,93db99d7d1fafa18048a644d8cf2f2f49649dd14,ophthalmologist,38.965239,-77.3676352,,1.0,,,1.0,True,20170,0,0,0,0,0,0
+325,Dr. Nima Moainie MD,"6196 Oxon Hill Road #440, Oxon Hill",,0a6acbb5b27df2e145c1a3cd9dac10d92e7680ed,ophthalmologist,38.8035133,-76.9827007,,1.0,,,1.0,True,20745,0,0,0,0,0,0
+326,"Dr. Philip Nicholson, O.D.","10925 Baltimore Avenue, Beltsville",,664777b3caedb5b0cbb7c03977d7668a7212f32b,optometrist,39.03241,-76.907843,,1.0,,5.0,2.0,True,20705,0,0,0,0,0,0
+327,"Dr. Prasad M. Nataraj, MD","7501 Greenway Center Drive #440, Greenbelt",,99c16878cb5f74f3d1ffe42b45efd936c461e0a9,Allergy Treatment,38.990134,-76.880007,,1.0,,,,True,20770,0,0,0,0,0,0
+328,Dr. Richard Solomon & Associates,"7101 Democracy Boulevard, Bethesda",,6faab5bc76e22003c58f7769339c1388b4855eb5,Contact Lens,39.0246508,-77.1470141,,1.0,,4.3,,True,20817,0,0,0,0,0,0
+329,Dr. S.M. Sastry Bethesda Retina LLC.,"10215 Fernwood Road # 305, Bethesda",,4d9c38b490c5f220bb720e8c657d4a47fb6ad993,Retina,39.0240266,-77.1346469,,1.0,,5.0,,True,10215,0,0,0,0,0,0
+330,"Dr. Sina J. Sabet, MD","5130 Duke Street, Alexandria",,b2db4ec29ec87e70816fb567469c0e2b57341de5,ophthalmologist,38.8111519,-77.1213507,,1.0,,2.3,1.0,True,22304,0,0,0,0,0,0
+331,Dr. Sonalee Kulkarni M.D.,"8505 Arlington Boulevard #450, Fairfax",,1315473afb4a9e074eaed2d4f6d6e07a2f52237a,Neuro-Ophthalmology,38.8644708,-77.2399657,,1.0,,,,True,22031,0,0,0,0,0,0
+332,"Dr. Susan K. Buenaventura, MD","5425 Duke Street, Alexandria",,c7ba06dae38795d08d9c50dd06a03c1edac2f939,Cosmetic Eyelid Surgery,38.8136947,-77.126214,,1.0,,5.0,,True,22304,0,0,0,0,0,0
+333,Dr. Voorthuis & Associates,"530 King Street, Alexandria",,60d0ca246cece30cc5c5e820114204d37f26860b,Glasses,38.804704,-77.045594,,1.0,,4.4,,True,22314,0,0,0,0,0,0
+334,"Dr.Helbing Allergy and Asthma Associates, Dr Helbing, MD","6210 Old Keene Mill Court, Springfield",,2c6c07fdb9bb745a9fa7fbc498053a87b886beeb,Allergy Treatment,38.779597,-77.23729,,1.0,,,,True,22152,0,0,0,0,0,0
+335,"Drs. May, Hettler & Associates Optometrists","21800 Towncenter Plaza, Sterling",,d12c3bb3e1049fdfde1e9ad564ca0fb1a5dbb267,optometry,39.0124111,-77.3732349,,1.0,,3.7,2.0,True,20170,0,0,0,0,0,0
+336,Edward Perraut MD,"Barlow Building, 5454 Wisconsin Avenue #850a, Chevy Chase",,73d3f8bcd1175ea37a2ff83b88a0a10112899ca4,Lasik,38.9625918,-77.0872586,,1.0,,5.0,,True,20815,0,0,0,0,0,0
+337,Ellis Forrest MD,"6231 Leesburg Pike #608, Falls Church",,efb97f0ac2ec92fdea87a86d6d2fd76df54e960f,ophthalmologist,38.8676613,-77.1532354,,1.0,,,1.0,True,22044,0,0,0,0,0,0
+338,"Evergreen Vision Care, James H. Walthall, OD","7002 Little River Turnpike, Annandale",,78461af9cfb280e5cacc9ea0d068f46b98b9942f,optometrist,38.829175,-77.186113,,1.0,,4.5,2.0,True,22003,0,0,0,0,0,0
+339,Eye Consultants-Northern Va: Krist Maryjo MD,"8134 Old Keene Mill Road # 300, Springfield",,e46cbeadb5e4e8a1fd828d64398fd66f9660fcaf,Eye Surgery,38.7816172,-77.2265265,,1.0,,,,True,22152,0,0,0,0,0,0
+340,"Eye One Surgical Associates, Inc: Belson Shelly G MD","6510 Kenilworth Avenue # 2300, Riverdale",,e198955bdcd943146a63db40edb73f42b0fbf9ae,ophthalmologist,38.968125,-76.918473,,1.0,,,1.0,True,20737,0,0,0,0,0,0
+341,Foxhall Surgical Associates: Garrett Meredith MD,"3301 New Mexico Avenue Northwest, Washington",,0b03273f5bc2de1546f2bb6b7576b053dca28a06,Surgical,38.9335529,-77.0849151,,1.0,,4.0,,True,20016,0,0,0,0,0,0
+342,"Jerry L. West, OD","2521 Wilson Boulevard, Arlington",,4792e0433992611be127ff94cb10bcc0827058b7,optometrist,38.8903457,-77.0892091,,1.0,,4.9,2.0,True,22201,0,0,0,0,0,0
+343,"John L. Burns, OD","7801 Old Branch Avenue, Clinton",,9441f6f3fa2a97151e65cb18327e7e493fb9b33b,optometry,38.7832835,-76.8993881,,1.0,,5.0,2.0,True,20735,0,0,0,0,0,0
+344,"Jordan Heffez, MD (Retina Consultants PC)","1145 19th Street Northwest Suite 500, Washington",,68ede2d54f7f67fd0a1e3b0235951ec7e9dca3b6,Retina,38.9050447,-77.0429251,,1.0,,,,True,20036,0,0,0,0,0,0
+345,"Jordan Heffez, MD (Retina Consultants PC)","6410 Rockledge Drive Suite 400, Bethesda",,36a4561c116144f87f09914d40eed661353c027f,Retina,39.0240155,-77.1337016,,1.0,,,,True,20817,0,0,0,0,0,0
+346,"Khoa D. Hoang, M.D.","5842 Hubbard Drive, Rockville",,d80909343398bb1febbd37d56b7975be9516a39c,Lasik,39.0544856,-77.119174,,1.0,,,,True,20852,0,0,0,0,0,0
+347,"Khoa D. Hoang, M.D.","8138 Watson Street, Tysons",,4950ec159fd4f5a53b33f47753669644f0a79f61,Lasik,38.9180929,-77.2267216,,1.0,,,,True,22102,0,0,0,0,0,0
+348,"Lamont T. Bunyon, O.D.","5210 Auth Road #200, Camp Springs",,900d7fa34fa3d6a00105302bf88a97e0cedd5f25,optometrist,38.8234825,-76.9169807,,1.0,,4.9,2.0,True,20746,0,0,0,0,0,0
+349,"Larry N. London, OD","3800 Fairfax Drive, Arlington",,9cd04741abcbfa0a167dacf8f06311f6e2f1a666,optometrist,38.8821571,-77.1050976,,1.0,,5.0,2.0,True,22203,0,0,0,0,0,0
+350,Malouf George MD,"4400 Telfair Boulevard, Camp Springs",,837970382e6283f91fad1e6eb23a9fc1aa362043,ophthalmologist,38.829758,-76.9098999,,1.0,,3.2,1.0,True,20746,0,0,0,0,0,0
+351,Marwa A. Adi MD,"Barlow Building, 5454 Wisconsin Avenue a, Chevy Chase",,93bbecf0a0063109971f24e48c0033a190393a66,Cataract Surgery,38.9625918,-77.0872586,,1.0,,,,True,20815,0,0,0,0,0,0
+352,"Matthew Han, OD - Loudoun Optometry","47010 Community Plaza #150, Sterling",,4cf9297f37305dffb8e80e1073ec0839561397e7,optometrist,39.0155529,-77.3749442,,1.0,,4.0,2.0,True,20164,0,0,0,0,0,0
+353,Metropolitan Eye Care Center: Dotson Richard L MD,"1647 Benning Road Northeast # 102, Washington",,ad3e8993720dabe6264e9e73e230983d759ccc4c,Eye Allergy,38.8993513,-76.979994,,1.0,,,,True,20002,0,0,0,0,0,0
+354,"MI Skin Dermatology Center: Melda Isaac, MD","2440 M Street Northwest #703, Washington",,44dce77377e9efde31fa93280742946882d07930,Laser,38.905045,-77.05291,,1.0,,4.4,,True,20037,0,0,0,0,0,0
+355,"Michael Khalil, O.D.","1406 North Point Village Center, Reston",,6e9d1e7046f0abee255b525020807122fcd06fe2,optometrist,38.9799897,-77.3487277,,1.0,,4.4,2.0,True,20194,0,0,0,0,0,0
+356,Moshedi E P MD,"9841 Greenbelt Road #102, Lanham",,1d62ff4998a755c2c9f45ef32254920b9ce17a0b,ophthalmologist,38.9907201,-76.8343659,,1.0,,3.0,1.0,True,20706,0,0,0,0,0,0
+357,MyEyeDr.,"5701 Greenbelt Road, Berwyn Heights",,7bf3574320d3bc4898daff64336479afa4872980,Eye Exam,38.9977307,-76.9148689,,1.0,,2.5,2.0,True,20740,0,0,0,0,0,0
+358,MyEyeDr.,"1100 South Hayes Street, Arlington",,e00b9402d49082f64eea94906413fb41aa1c9c3c,Eye Exam,38.8623327,-77.0609721,,1.0,,2.3,2.0,True,22202,0,0,0,0,0,0
+359,MyEyeDr.,"8525 Georgia Avenue, Silver Spring",,9319155ed74c276574895c6fec8b7ef11b77e4a4,Eye Exam,38.9955992,-77.027402,,1.0,,3.0,2.0,True,20910,0,0,0,0,0,0
+360,MyEyeDr.,"4465 Willard Avenue, Chevy Chase",,b7d1aff83f434ef65c1dfb813577759a15dfa06d,Eye Exam,38.9622837,-77.0885067,,1.0,,2.0,2.0,True,20815,0,0,0,0,0,0
+361,MyEyeDr.,"1330 Connecticut Avenue Northwest, Washington",,5ba6abc99413fd708d39cf3a6226489fb14033ed,Eye Exam,38.907838,-77.042645,,1.0,,3.3,2.0,True,20036,0,0,0,0,0,0
+362,MyEyeDr.,"6406 Springfield Plaza, Springfield",,f485a72fabb2b23f75e1463a6b18708faa61279d,Eye Exam,38.7808319,-77.1896436,,1.0,,1.0,2.0,True,22150,0,0,0,0,0,0
+363,MyEyeDr.,"7254 Woodmont Avenue, Bethesda",,258ba2c1cf422c2c96fdcf82b4aec79596115d62,Eye Exam,38.9816213,-77.0961891,,1.0,,2.6,2.0,True,20814,0,0,0,0,0,0
+364,MyEyeDr.,"401 Maple Avenue West, Vienna",,096731189ff01406698e8bdc06dacce3a85eff05,Eye Exam,38.8961829,-77.2726433,,1.0,,2.8,2.0,True,22180,0,0,0,0,0,0
+365,MyEyeDr.,"901 North Stuart Street #210, Arlington",,ef9fec2438736961917d33b678db74e3efda1056,Eye Exam,38.8815124,-77.1113633,,1.0,,3.0,2.0,True,22203,0,0,0,0,0,0
+366,MyEyeDr.,"80 Market Street, Gaithersburg",,0be4734a120edaad0553b9b450767f78e8bc778e,Eye Exam,39.1243716,-77.2342319,,1.0,,2.7,2.0,True,20878,0,0,0,0,0,0
+367,MyEyeDr.,"6178 Oxon Hill Road Ste 100, Oxon Hill",,4debf83743eeeec3ac71438dd55a1fba2df66d2e,optometrist,38.8040516,-76.9808446,,1.0,,4.8,2.0,True,20745,0,0,0,0,0,0
+368,MyEyeDr.,"233 Pennsylvania Avenue Southeast, Washington",,1e447ff2eb63bea14fbe4e72de6b638d98d348ba,optometry,38.8868744,-77.0023605,,1.0,,3.6,2.0,True,20003,0,0,0,0,0,0
+369,"Nasrallah, Fadi P, Md - Retina Consultants Pc","3289 Woodburn Road # 270, Annandale",,ace04cb7adf2da63dc4e164566194e80ed759780,Retina,38.854059,-77.223356,,1.0,,,,True,22003,0,0,0,0,0,0
+370,Neil F Martin MD,"Barlow Building, 5454 Wisconsin Avenue m, Chevy Chase",,5d00f204e1b63346b6b81c5201cbcaf22374c640,Lasik,38.9625918,-77.0872586,,1.0,,,,True,20815,0,0,0,0,0,0
+371,Northern Va Doctors-Optometry: Galiani Alfred J OD,"1800 South Bell Street, Arlington",,e09c92a09490b7d4225485009c442ee7af743992,optometrist,38.8571956,-77.0514992,,1.0,,,2.0,True,22202,0,0,0,0,0,0
+372,Northern Va Ophthalmology: Dembo Melissa MD,"6231 Leesburg Pike # 608, Falls Church",,6a67fc67af1a0d74fa6f326f09d8f40fdb81dbed,ophthalmologist,38.8676613,-77.1532355,,1.0,,,1.0,True,22044,0,0,0,0,0,0
+373,"Nova Premier Eyecare, P.C.: Dr. Vivian Nguyen","10333 Democracy Lane Suite A, Fairfax",,bebbd8355ae98d1632651b62fc399b94c563c205,Lens,38.8497245,-77.300688,,1.0,,5.0,,True,22030,0,0,0,0,0,0
+374,"Oakton Optometry - David A. Zelman, O.D.","2972 Chain Bridge Road, Oakton",,3ea72463ad6d9ab69e084ca68fbd459bc7794a96,optometry,38.8801815,-77.303521,,1.0,,,2.0,True,22124,0,0,0,0,0,0
+375,Ophthalmic Plastic & Orbital: Perman Kevin I MD,"8505 Arlington Boulevard # 210, Fairfax",,6f3975aed2de0fd74c070aad6e5a2a78c76c25d4,Ocular Plastic Surgery,38.8644849,-77.2398704,,1.0,,3.0,,True,22031,0,0,0,0,0,0
+376,"Paul C. Kang, M.D.","2 Wisconsin Circle #230, Chevy Chase",,91ec9f65311304fb23442215c89dcb3da63094c8,Lasik,38.9616757,-77.085231,,1.0,,,,True,20815,0,0,0,0,0,0
+377,Potomac Eye Surgeons: Levinson Lawrence M MD,"11500 Lake Potomac Drive, Potomac",,552dff3bf203d3b13dc431c64ca66b936b49405d,Cosmetic Eyelid Surgery,39.0440903,-77.2529284,,1.0,,,,True,20854,0,0,0,0,0,0
+378,Potomac Eye Surgeons: Wenger Laurie MD,"11500 Lake Potomac Drive, Potomac",,26129acafda49500945839ca28d090e28190b634,Cosmetic Eyelid Surgery,39.0440903,-77.2529284,,1.0,,,,True,20854,0,0,0,0,0,0
+379,Eye Rx- Dr. Stephen Lobaugh and Dr. Benjamin Teller,"1629 K Street Northwest #502, Washington",,76537a5c023f818090eaef23a63a6387f197433c,Contact Lens,38.9029322,-77.0378672,,2.0,,,,True,20006,0,0,0,0,0,0
+380,May Hettler & Associates,"2253 Old Bridge Road, Woodbridge",,b1fe12a42ea652ce9397e977d700420488668f60,optometry,38.6758602,-77.2807199,,2.0,,3.0,2.0,True,22192,0,0,0,0,0,0
+381,MyEyeDr.,"4555 Duke Street, Alexandria",,f611e3f7af3c49617c0f87fc490d444027b80df2,Eye Exam,38.813012,-77.111498,,2.0,,2.9,2.0,True,22304,0,0,0,0,0,0
+382,MyEyeDr.,"2823 North Clarendon Boulevard, Arlington",,7b61775442953337fd297158c49b4fe660d55e2c,Eye Exam,38.888402,-77.0921843,,2.0,,3.0,2.0,True,22201,0,0,0,0,0,0
+383,MyEyeDr.,"6307D Richmond Highway, Alexandria",,9ecff7d2369578836501cb4620e3269d55a7da82,Eye Exam,38.7811511,-77.0777524,,2.0,,4.0,2.0,True,22303,0,0,0,0,0,0
+384,MyEyeDr.,"1701 Rockville Pike, Ste A4, Rockville",,f94df4b739a3df863834b641891723e8a3b2f8b8,optometrist,39.060891,-77.124114,,2.0,,2.9,2.0,True,20852,0,0,0,0,0,0
+385,MyEyeDr.,"18111 Town Center Drive, Olney",,3c6991fe058026c718a232e05ab03fef24679aee,optometrist,39.1520877,-77.0617615,,2.0,,3.7,2.0,True,20832,0,0,0,0,0,0
+386,MyEyeDr.,"4555 Duke Street, Alexandria",,f611e3f7af3c49617c0f87fc490d444027b80df2,optometry,38.813012,-77.111498,,2.0,,2.9,2.0,True,22304,0,0,0,0,0,0
+387,Adventist HealthCare Washington Adventist Hospital,"7600 Carroll Avenue, Takoma Park",,860115e5e1fca97a3ce1e22a69b2b76c684a5a7e,hospital,38.9855452,-77.0019131,,5.0,,3.0,1.0,True,20912,0,0,0,0,0,0
+388,Columbia Eye Associates,"2440 M Street Northwest #516, Washington",,501521d2826e99f74eaba84864e91d0ef4105196,Ophthalmology,38.9050431,-77.052974,,2.0,,5.0,1.0,True,20037,0,0,0,0,0,0
+389,Holy Cross Hospital,"1500 Forest Glen Road, Silver Spring",,7eb0656210ba5e8e66da5ed2f583988f70e7782e,hospital,39.0148667,-77.0353328,,31.0,,3.1,1.0,True,20910,0,0,0,0,0,0
+390,Johns Hopkins Medicine,"8600 Old Georgetown Road, Bethesda",,dd93a8d9b6bf9cd0f625aeebaa7d05fcd2ee3fc2,hospital,38.9974266,-77.1104762,,10.0,,,1.0,True,20814,0,0,0,0,0,0
+391,MedStar Southern Maryland Hospital Center,"7503 Surratts Road, Clinton",,2622fb4ed0e8040ad713de8deb328e0f7725a9e0,hospital,38.7485911,-76.8757544,,4.0,,2.1,1.0,True,20735,0,0,0,0,0,0
+392,"Setareh Vistamehr, MD","11119 Rockville Pike #318, Rockville",,a091a85ffb92f26bd3de7ed637b76a96b7d84089,Ophthalmology,39.0393666,-77.1083941,,1.0,,5.0,1.0,True,20852,0,0,0,0,0,0
+393,Suburban Hospital,"8600 Old Georgetown Road, Bethesda",,f18c911a6194a05604536fa0b55aa4b4f7c08d33,hospital,38.9974266,-77.1104762,,19.0,,3.4,1.0,True,20814,0,0,0,0,0,0
+394,Timothy J Malone MD,"731 Walker Road # F, Great Falls",,433c6b7be8a015bc4c679d17094b9fa16ed50673,Ophthalmology,38.999193,-77.288563,,4.0,,5.0,1.0,True,22066,0,0,0,0,0,0
+395,A Brighter Image,"1720 Connecticut Avenue Northwest, Washington",,745950583b7e18d959274386740151286c5d4d3d,Glasses,38.9133518,-77.0459305,,2.0,,5.0,2.0,True,20009,0,0,0,0,0,0
+396,A Visual Affair,"1150 Connecticut Avenue Northwest, Washington",,b2967a025f09bfd461354f6f07010c4a17ab0b5a,Eye Exam,38.9052695,-77.0413343,,1.0,,,2.0,True,20036,0,0,0,0,0,0
+397,Advanced Surgery Center of Bethesda,"6430 Rockledge Drive #160, Bethesda",,4690073d7d91a4099efdf35584bb1d8aa2f7bcf9,Surgical,39.0255073,-77.1335448,,1.0,,3.0,1.0,True,20817,0,0,0,0,0,0
+398,All American Eyeglass Repair,"8145 Richmond Highway, Alexandria",,b47344fccd4402f602dda799036d1e4c6e754e49,Glasses,38.7361918,-77.0937693,,0.0,,4.0,3.0,True,22309,0,0,0,0,0,0
+399,America's Best Contacts & Eyeglasses,"3460 Crain Highway, Bowie",,3c270bb0a9b8041234c09e53c807c91e485dfbbb,Contacts,38.9370227,-76.7210563,,3.0,,3.0,3.0,True,20716,0,0,0,0,0,0
+400,American Medical Care,"1629 K Street Northwest Ste 300, Washington",,8982adde5e0758f7768cc686f44bc71f6c1e473f,Glaucoma Medical and Surgical Therapy,38.9029226,-77.0378532,,1.0,,5.0,1.0,True,20006,0,0,0,0,0,0
+401,Annandale EyeCare - Member of Vision Source,"7630 Little River Turnpike #100, Annandale",,f4c4bf926b3d14ab39fd1daa384442efbd8bfc9f,Contact Lens,38.834071,-77.208971,,3.0,,4.7,2.0,True,22003,0,0,0,0,0,0
+402,Ap Eyecare,"9665 A Main Street, Fairfax",,707f625dd333aebdc6927579cdff2a926d60ff91,optometry,38.841232,-77.278977,,2.0,,5.0,2.0,True,22031,0,0,0,0,0,0
+403,Apex Optical Co,"2001 L Street Northwest #110, Washington",,c5ab78e235b535282f333f0eacb010ff7519f056,Glasses,38.9040447,-77.0452663,,1.0,,4.6,2.0,True,20036,0,0,0,0,0,0
+404,"Austin-Weston, The Center for Cosmetic Surgery","1825 Samuel Morse Drive, Reston",,e93276f97ae7c8849f0f197afea3f7c98a8aabd0,Cosmetic Eyelid Surgery,38.947464,-77.330731,,1.0,,4.8,1.0,True,20190,0,0,0,0,0,0
+405,Bert M Glaser National Retina,"5530 Wisconsin Avenue # 101, Chevy Chase",,410f9e768f3bbe259d731f8c52730d27b17565d1,Retina,38.9648149,-77.0883092,,3.0,,,1.0,True,20815,0,0,0,0,0,0
+406,Bethesda Chevy Chase Surgery Center,"6931 Arlington Road, Bethesda",,7fc3eceff64e5171488bb57697f864b37e428493,Surgical,38.9786021,-77.0979046,,2.0,,1.0,1.0,True,20814,0,0,0,0,0,0
+407,Bethesda Neurology,"7830 Old Georgetown Road, Bethesda",,e8f8b11f64fa4a41ab73b7e80e7227f2c48f6c82,Neuro-Ophthalmology,38.9879271,-77.0999808,,1.0,,,1.0,True,20814,0,0,0,0,0,0
+408,Bethesda Retina,"10215 Fernwood Road, Bethesda",,b48f8c95d768cf09e65e0ab41ebda206a130792c,Retina,39.0237948,-77.1346935,,1.0,,,1.0,True,10215,0,0,0,0,0,0
+409,BJ's Optical,"101 South Van Dorn Street, Alexandria",,6c12020d297092808e0897415d72329e17aa2089,Glasses,38.8130205,-77.1325056,,1.0,,,1.0,True,22304,0,0,0,0,0,0
+410,Brahm & Powell Guild Opticians,"113 North Washington Street, Alexandria",,f1350361bbb8bda833ac2e408b3dc4f6295b59d2,Glasses,38.8054014,-77.0466985,,3.0,,5.0,2.0,True,22314,0,0,0,0,0,0
+411,Burton Optician,"3252 Prospect Street Northwest, Washington",,96bcd9b3f77f519bc0152d7e6e374879a936d087,Glasses,38.9058402,-77.0648598,,1.0,,5.0,2.0,True,20007,0,0,0,0,0,0
+412,Capital Vision,"3801 Fairfax Dr Suite 74, Arlington, VA 222031762, Arlington",,243e671b97d73145f61f587ce7f9bd499ef9b1ee,Lasik,38.8833164,-77.1050527,,1.0,,3.0,1.0,True,22201,0,0,0,0,0,0
+413,Center For Laser Surgery,"3301 New Mexico Avenue Northwest #240, Washington",,c256196cb7ff1df38185592509141802a5c9aa57,Laser,38.9336483,-77.085146,,1.0,,4.0,2.0,True,20016,0,0,0,0,0,0
+414,"Center For Retinal Diseases and Surgery, LLC","6420 Rockledge Drive, Bethesda",,9274eceb1c3d1f045691ce1b706523ab83fad2f6,Retina,39.0245979,-77.1332318,,1.0,,,1.0,True,20817,0,0,0,0,0,0
+415,Chevy Chase Facial Plastic Surgery,"7201 Wisconsin Avenue #515, Bethesda",,33f51549e66fc1a73678a5f2d02ffdb28c5c0aab,Cosmetic Eyelid Surgery,38.9819305,-77.0925418,,1.0,,5.0,2.0,True,20814,0,0,0,0,0,0
+416,Clearfinity Eyecare Optometrist,"9000 Lorton Station Boulevard m, Lorton",,ab73737b6458cd955b1476de450b29d324de6015,optometrist,38.7129421,-77.213898,,1.0,,5.0,2.0,True,22079,0,0,0,0,0,0
+417,Costco Optical Department,"11160 Veirs Mill Road, Silver Spring",,fc8aee92be56845d5de3015e9b88edeb6940a812,Glasses,39.0349633,-77.0550911,,1.0,,5.0,2.0,True,11160,0,0,0,0,0,0
+418,Costco Vision Center,"4725 West Ox Road, Fairfax",,f4c73481056d7ccdb4b73fd2768f5f735ad3b17f,optometry,38.8494992,-77.3716338,,1.0,,,2.0,True,22030,0,0,0,0,0,0
+419,Dr. Finley's Family Eyecare,"709 Pine Street, Herndon",,3d6c85cc6773d817acf157188df566a3cd2f928e,Eye Exam,38.970632,-77.3839799,,1.0,,4.2,2.0,True,20170,0,0,0,0,0,0
+420,Dr. Howard Budner & Associates Optometrists,"4110 Aspen Hill Rd., #300, Rockville",,0999eeac9a1046a98ab7d692864bb0c571327d84,Lens,39.079827,-77.081812,,1.0,,4.4,2.0,True,20853,0,0,0,0,0,0
+421,Dr. Howard Budner & Associates Optometrists,"4084 University Drive #204, Fairfax",,3ced5c6964ae1f7815d84836324b60999249f18b,optometry,38.8435496,-77.3066041,,1.0,,3.4,2.0,True,22030,0,0,0,0,0,0
+422,Dulles Eye Associates,"3301 Woodburn Road #104, Annandale",,6d2885f9083bcd83fc09a2c234007a04e89781af,Lasik,38.8538439,-77.2255837,,3.0,,4.4,2.0,True,22003,0,0,0,0,0,0
+423,Envision Eye & Laser,"12200 Annapolis Road # 116, Glenn Dale",,250284df14158c97ac5bcc65d0715550ca3f8fad,Eye Surgery,38.9641547,-76.7953269,,1.0,,,1.0,True,20769,0,0,0,0,0,0
+424,Eye Care & Surgical Center-Laurel,"615 Main Street, Laurel",,266d0bdc5f166d2f6c6af39f5bfda794dccd576c,Eye Surgery,39.1083024,-76.8525917,,2.0,,1.0,1.0,True,20707,0,0,0,0,0,0
+425,"Eye Care and Surgery, P.A.","8311 Cherry Lane, Laurel",,e7ca36deb29b038f7f8b462c001ee25196d2ecb5,Eye Surgery,39.0920027,-76.8631644,,2.0,,3.0,1.0,True,20707,0,0,0,0,0,0
+426,Eye Central,"635 Pennsylvania Avenue Southeast, Washington",,806c9f90048b6fe404fd104e9193e473e11f5653,Eye Exam,38.884741,-76.9972669,,2.0,,3.9,2.0,True,20003,0,0,0,0,0,0
+427,"Eye Central, PC- McLean","6740 Old McLean Village Drive, McLean",,3811b273fd847ae12757c5ab9ea91015b652bef5,Eye Exam,38.93767,-77.176819,,2.0,,5.0,2.0,True,22101,0,0,0,0,0,0
+428,Eye Doctors of Washington,"2 Wisconsin Circle, Chevy Chase",,7e976e9f17fcc9d433dec84672f28eb84406744e,Eye Surgery,38.9617119,-77.0853481,,4.0,,4.9,1.0,True,20815,0,0,0,0,0,0
+429,Eye Doctors of Washington,"8230 Boone Boulevard, Vienna",,e8ed437d7d06db75e5d33f7912585172c69564bc,Eye Surgery,38.9160946,-77.2301354,,4.0,,4.9,1.0,True,22182,0,0,0,0,0,0
+430,Eye Image Inc.,"2273 Bel Pre Road, Silver Spring",,cdee2eebd49db2da6a0651e9a5a89e48e8ab09ec,Contact Lens,39.0911537,-77.0480465,,2.0,,4.0,2.0,True,20906,0,0,0,0,0,0
+431,Eye Physicians and Surgeons Inc,"5249 Duke Street Ste 5255, Alexandria",,70f2fd52e4a923c1e9fdebf804dd27038b0fe2b9,Eye Surgery,38.813206,-77.122915,,3.0,,,1.0,True,22304,0,0,0,0,0,0
+432,Eye Plastic Associates,"4600 Kenmore Avenue, Alexandria",,049f4a18999a650079dbd171b939b5ee027a555f,Cosmetic Eyelid Surgery,38.8290848,-77.1094418,,1.0,,,1.0,True,22304,0,0,0,0,0,0
+433,Eye See Optical,"5268 Nicholson Lane, Kensington",,453baa73257e88fa56e2c419fba01a4b4b8d6045,Lens,39.044491,-77.1064601,,3.0,,5.0,2.0,True,20895,0,0,0,0,0,0
+434,eye2eye Optometry Corner,"6487 Old Beulah Street, Alexandria",,b11b5bf796ae0108c4de42d0f5f0dc4e0b81cc91,optometrist,38.741732,-77.163435,,1.0,,,2.0,True,22315,0,0,0,0,0,0
+435,Fair Lakes EyeCare-Independent Doctor of Optometry,"13047 Fair Lakes Shopping Center, Fairfax",,1e01e85f3a2e8030367c1f38ebc0344125a814bb,optometry,38.8568058,-77.3938728,,1.0,,5.0,2.0,True,22033,0,0,0,0,0,0
+436,Fairfax Eye Associates,"9936 Main Street, Fairfax",,ea88d38ba8d394d31de02971881eeb8fcd0a3412,ophthalmologist,38.8442447,-77.289044,,2.0,,5.0,1.0,True,22031,0,0,0,0,0,0
+437,Fairfax Surgical Center,"10730 Main Street, Fairfax",,d0ad95f1e6faa38ba619365969118080fcfc24d8,Surgical,38.8497405,-77.3153652,,1.0,,4.5,1.0,True,22030,0,0,0,0,0,0
+438,Fairfax Surgical Group,"8316 Arlington Boulevard # 410, Fairfax",,cf32dd3da8c8ac63d20d46de35f34ab0a3535483,Surgical,38.8664486,-77.2323966,,1.0,,,1.0,True,22031,0,0,0,0,0,0
+439,For Eyes Optical,"6506 Loisdale Road, Springfield",,62a4d7077e9af2e3e781e789550d0a52caac424a,Eye Exam,38.7769905,-77.1768244,,2.0,,2.0,2.0,True,22150,0,0,0,0,0,0
+440,For Eyes Optical,"9673 Lost Knife Road, Gaithersburg",,4024913de3eb5384299d0135c2130a6f0d0b9d00,Eye Exam,39.153631,-77.198783,,2.0,,3.5,2.0,True,20877,0,0,0,0,0,0
+441,For Eyes Optical,"11011 Lee Highway, Fairfax",,b7570e553377f5a78292c0e0b3293cffcffd9f33,Lens,38.85204,-77.323632,,2.0,,,2.0,True,22030,0,0,0,0,0,0
+442,For Eyes Optical,"7551 Greenbelt Road, Greenbelt",,99edbe5c3bc1f42295a37a20f60151d17eaea5bd,Contact Lens,38.992095,-76.877949,,2.0,,3.1,2.0,True,20770,0,0,0,0,0,0
+443,For Eyes Optical,"47010 Community Plaza #150, Sterling",,2159a1dcf14e0f0281e8f1b5c0bfed07b21e119c,Contact Lens,39.01546,-77.374891,,2.0,,3.0,2.0,True,20164,0,0,0,0,0,0
+444,For Eyes Optical,"13830 Outlet Drive, Silver Spring",,2c511ef37a6537f3ee699d2a2c3d16bc9f87fe1d,optometrist,39.083447,-76.945352,,2.0,,2.9,2.0,True,20904,0,0,0,0,0,0
+445,Great Falls Eyecare Optometrists,"9909 Georgetown Pike, Great Falls",,9ac546b16d7443320aa9267bb21ab0ee381cd1b6,optometrist,38.997936,-77.289364,,2.0,,5.0,2.0,True,22066,0,0,0,0,0,0
+446,iGlasses@4corners,"10101 Colesville Road, Silver Spring",,34b2d9527c5492a1a94a5131343621322c0a3245,Lens,39.020184,-77.011874,,1.0,,3.5,3.0,True,20901,0,0,0,0,0,0
+447,InSight Opticians,"1240 F Street Northwest, Washington",,badc96bf7327524604b548caa0297af548f7a0d7,Glasses,38.8970428,-77.0286452,,1.0,,4.4,2.0,True,20004,0,0,0,0,0,0
+448,JCPenney Optical,"11160 Veirs Mill Road, 11160 Veirs Mill Road, Wheaton",,a4500081f8c3b09938b51910605415ed16d4838f,Lens,39.0367189,-77.0534504,,1.0,,3.0,2.0,True,11160,0,0,0,0,0,0
+449,JCPenney Optical,"6699 Springfield Mall, Springfield",,61cd67e424a0c1e0126602c459b4640994b6e6bf,Contact Lens,38.7733737,-77.1782173,,1.0,,,2.0,True,22150,0,0,0,0,0,0
+450,JCPenney Optical,"3401 Donnell Drive, Forestville",,450e274906bc3578d6eb1ff5353d91bf495a6e1f,Contact Lens,38.845569,-76.88671,,1.0,,,2.0,True,20747,0,0,0,0,0,0
+451,LakeRidge Vision Source,"12444 Dillingham Square, Woodbridge",,9ebe85ba8da655dadcd0b7274c4db19114ceb82b,Contact Lens,38.6842457,-77.3188283,,2.0,,4.2,2.0,True,22192,0,0,0,0,0,0
+452,Lasikpro Laser Eye Centers,"5454 Wisconsin Avenue #850, Chevy Chase",,8d932d0489104254440e096351a5c33c579f7c91,Laser Vision Correction,38.962569,-77.087261,,2.0,,5.0,1.0,True,20815,0,0,0,0,0,0
+453,LensCrafters,"3500 East-West Highway, Hyattsville",,1c22c15768cd093d1c88ef8eda1664fe0e9194d2,Contact Lens,38.9682376,-76.9560917,,0.0,,2.2,3.0,True,20782,0,0,0,0,0,0
+454,LensCrafters,"2700 Potomac Mills Circle #350, Woodbridge",,018f91c49795f721a06ea5fb37e84365ddcaba48,Glasses,38.6428957,-77.292618,,0.0,,2.2,3.0,True,22192,0,0,0,0,0,0
+455,LensCrafters,"11160 Veirs Mill Rd, Spc G1, Wheaton",,155341a45daecb39e4bd9e07b8db86119814568a,Glasses,39.036584,-77.056275,,0.0,,2.2,3.0,True,11160,0,0,0,0,0,0
+456,Lerner Vision Care,"718 Rockville Pike, Rockville",,fc9df54531975b099ea96089e07f5aa8f2edb33f,Lens,39.0796847,-77.1417566,,2.0,,4.7,2.0,True,20852,0,0,0,0,0,0
+457,Mac Donald Eye Care PLLC,"4001 9th Street North #110, Arlington",,83ce5d37def1d0c801fe67259f5e01313391b51a,Eye emergencies,38.881408,-77.1084023,,1.0,,4.4,2.0,True,22203,0,0,0,0,0,0
+458,Maryland Eye Care Center,"831 University Boulevard East #11, Silver Spring",,a67a165d510efd79f1225528bd0ca7e1916ce31f,Contact Lens,38.9942679,-76.99324,,2.0,,2.8,2.0,True,20903,0,0,0,0,0,0
+459,Maryland Eye Institute,"6 Montgomery Village Avenue #103, Gaithersburg",,70bf9b48056d66bb0af0a38c2d63ed7dd463c9da,Cataract Surgery,39.1545482,-77.2104321,,4.0,,3.1,1.0,True,20879,0,0,0,0,0,0
+460,Medical Cosmetic Enhancements,"2311 M Street Northwest, Washington",,cefd969656f85f519c5b15e8ea990515eaf9772d,Laser,38.905387,-77.050645,,1.0,,4.8,1.0,True,20037,0,0,0,0,0,0
+461,Medstar Eye Institute,"4000 Mitchellville Road, Bowie",,b4016777767afe19dab21522558c30201de66942,Eye Surgery,38.9456825,-76.7231267,,6.0,,1.7,1.0,True,20716,0,0,0,0,0,0
+462,Medstar Surgery Center,"1133 21st Street Northwest #100, Washington",,55bc93fc596b13067987d8b5babb41644c980c67,Surgical,38.9044653,-77.0461591,,2.0,,3.7,1.0,True,20036,0,0,0,0,0,0
+463,Metropolitan Optical,"1919 Pennsylvania Avenue Northwest, Washington",,965a9fb1f1e4d7f4367c793dec0e2d3310bce603,Glasses,38.9008457,-77.044334,,1.0,,4.6,2.0,True,20006,0,0,0,0,0,0
+464,Modern Optometry,"4469 Market Commons Drive, Fairfax",,f6bc728cfed66bf6913830ec55f09084587fad01,optometrist,38.8582621,-77.3766472,,1.0,,5.0,2.0,True,22033,0,0,0,0,0,0
+465,"Moshedi Eye Center| Medicine, Laser and Surgery","9841 Greenbelt Road, 102, Lanham",,522d39152490b816cd983f26d667ec9367c667b2,Eye Surgery,38.9898868,-76.8347512,,1.0,,5.0,1.0,True,20706,0,0,0,0,0,0
+466,MYKITA Shop Washington,"3001 M Street Northwest, Washington",,4e9d2b6d4277084d6845eec7ace5421d69dac5b9,Glasses,38.905374,-77.0593529,,0.0,,4.7,3.0,True,20007,0,0,0,0,0,0
+467,National Eye Institute: Chan Chi-Chao MD,"10 Center Drive # 103, Bethesda",,765bf4bfc46e5d4516b73b380016051d98c6af86,Degeneration,39.003573,-77.1046219,,1.0,,,1.0,True,20814,0,0,0,0,0,0
+468,National Retina Institute,"5530 Wisconsin Avenue, Chevy Chase",,75cb5349a095cad213d7bacb0d5337dbbed2f285,Retina,38.9647973,-77.0878337,,1.0,,3.5,1.0,True,20815,0,0,0,0,0,0
+469,"Northern Virginia Ophthalmology Associates, P.C.","6231 Leesburg Pike #608, Falls Church",,ef9e780608994ba864f85cc5c54e3700dc95fec3,Neuro-Ophthalmology,38.8676726,-77.1531772,,4.0,,5.0,1.0,True,22044,0,0,0,0,0,0
+470,Nova Eye Care Center,"3223 Duke Street, Alexandria",,276f785d8204b83c6ee32d386bf060bf7f267faf,optometry,38.808793,-77.086617,,2.0,,3.8,2.0,True,22314,0,0,0,0,0,0
+471,Nova Vision Center,"5653 Columbia Pike #101, Bailey's Crossroads",,e1325f68da9f57e5b99d8aaf54608f681e0668ca,optometry,38.8515775,-77.12522,,2.0,,5.0,2.0,True,22041,0,0,0,0,0,0
+472,Oakton Optometry,"2972 Chain Bridge Road, Oakton",,9688f9558cd5d0a0da1be2f3dd691c2e22d47d9d,optometry,38.8801815,-77.303521,,1.0,,,2.0,True,22124,0,0,0,0,0,0
+473,Olney Opticians Inc,"3423 Olney Laytonsville Road, Olney",,d0e4cb71e6b6d225fcd859522d0c2d97d6f7317b,optometrist,39.1542403,-77.0682025,,2.0,,5.0,2.0,True,20832,0,0,0,0,0,0
+474,Plastic Surgery Associates PC,"1300 Chain Bridge Road #200, McLean",,0523c83bc86ee47a5cfc72dbead5df4801a60bd5,Surgical,38.9403032,-77.175046,,1.0,,5.0,1.0,True,22101,0,0,0,0,0,0
+475,Premier Optometric Services,"4725 West Ox Road, Fairfax",,e1b04c93cf5be16d06ff80385cf003a30e49e0f1,Eye Exam,38.8493422,-77.371782,,1.0,,,2.0,True,22030,0,0,0,0,0,0
+476,Primary Eyecare Associates/ Dr. Seema Nechel,"9530 Burke Road, Burke",,763aff9d0ba1def3a3c91ae39684892c15640cb4,optometry,38.794526,-77.272427,,1.0,,5.0,2.0,True,22015,0,0,0,0,0,0
+477,Re:Vision - Dr. Roy S. Rubinfeld,"8316 Arlington Boulevard #235, Fairfax",,b89661b21a1c8c229273af246608ba48f19b3bf5,Lasik,38.8664716,-77.2322987,,1.0,,,2.0,True,22031,0,0,0,0,0,0
+478,Re:Vision - Dr. Roy S. Rubinfeld,"11200 Rockville Pike, Rockville",,ad5b3579a43b518744aca9e081457443d13e907e,Lasik,39.040861,-77.110953,,1.0,,5.0,2.0,True,20852,0,0,0,0,0,0
+479,Reston Eye Associates: Milani Elle MD,"1800 Town Center Drive, Reston",,673be0f0324bcbb2a146a132b4984c2c2770b463,ophthalmologist,38.9635432,-77.3643881,,1.0,,3.7,1.0,True,20190,0,0,0,0,0,0
+480,Reston Surgery Center,"1860 Town Center Drive, Suite G100, Reston",,c682df5f2b665bb7e45c70714323b8bfd37d0a4a,Surgical,38.9616858,-77.3663487,,1.0,,3.9,1.0,True,20190,0,0,0,0,0,0
+481,Retina Associates,"11300 Rockville Pike, Rockville",,9edb78fc995182b38faf46353c3191328f296c6e,Retina,39.0415377,-77.1117582,,2.0,,2.0,1.0,True,20852,0,0,0,0,0,0
+482,Retina Associates,"8630 Fenton Street #410, Silver Spring",,72fc388de1996616d0c2bc0f10fd7d8824079d4f,Retina,38.9977913,-77.0284295,,1.0,,3.5,1.0,True,20910,0,0,0,0,0,0
+483,Retina Associates,"4175 Hanson Court North #202, Bowie",,b3a74d8f1c2c5e6b24678462d750e4b9ca1ae35b,Retina,38.946979,-76.719468,,2.0,,,1.0,True,20716,0,0,0,0,0,0
+484,Retina Centers Of Washington,"1715 North George Mason Drive, Arlington",,0d053e9f4a0546dd9288c1074565382676139c4e,Retina,38.8904054,-77.1282472,,2.0,,,1.0,True,22205,0,0,0,0,0,0
+485,Retina Centers of Washington,"3800 Reservoir Road Northwest, Washington",,b111ecb45e43c62f21af2c68dac54df5dc03e4f7,Retina,38.9120467,-77.0753073,,1.0,,,1.0,True,20007,0,0,0,0,0,0
+486,Retina Consultants,"6410 Rockledge Drive #400, Bethesda",,ba83990b28f44d724a88f11c7bdc97ae3cce192b,Retina,39.0239863,-77.1336496,,4.0,,,1.0,True,20817,0,0,0,0,0,0
+487,Retina Consultants PC,"3289 Woodburn Road Suite 270, Annandale",,be4c54b51144cf47fd3782af358aa490caaa8231,Retina,38.854059,-77.223356,,2.0,,,1.0,True,22003,0,0,0,0,0,0
+488,Retina Group of Washington DC: Berinstein Daniel M MD,"8505 Arlington Boulevard # 300, Fairfax",,a275afa30e3cdb6b067dce9369404f196d4181f4,Retina,38.8644849,-77.2398704,,1.0,,,1.0,True,22031,0,0,0,0,0,0
+489,Retina Group of Washington DC: Murphy Robert P MD,"8505 Arlington Boulevard # 300, Fairfax",,f06531195585563cfe222a3d74bd3a8645dc3ac6,Retina,38.8644849,-77.2398704,,1.0,,,1.0,True,22031,0,0,0,0,0,0
+490,Retina Group of Washington DC: Sanders Reginald MD,"7501 Greenway Center Drive # 3, Greenbelt",,1167a5eabe6f6eb7193c1cf15fff8490fcb28a22,Retina,38.9901341,-76.8800066,,1.0,,5.0,1.0,True,20770,0,0,0,0,0,0
+491,Retina Group of Washington DC: Von Fricken Manfred MD,"8505 Arlington Boulevard # 300, Fairfax",,7c7d2d7f85e372b292865a0be06524f2132648be,Retina,38.8644708,-77.2399657,,1.0,,5.0,1.0,True,22031,0,0,0,0,0,0
+492,Retina Group of Washington: Byrnes Gordon A MD,"6355 Walker Lane # 502, Alexandria",,e44ada4e08be780ed1a94b37caed76c1bfddb694,Retina,38.7674278,-77.1607319,,1.0,,2.0,1.0,True,22310,0,0,0,0,0,0
+493,Retina Group of Washington: Deegan William F MD,"5454 Wisconsin Avenue, Chevy Chase",,52c40eecff572a2023d53964d5194bb254ac6345,Retina,38.9627194,-77.0869629,,1.0,,,1.0,True,20815,0,0,0,0,0,0
+494,Retina Group of Washington: Garfinkel Richard A MD,"8505 Arlington Boulevard # 300, Fairfax",,1fe1bb3a0d92741803e9360cbeac980ab927eda0,Retina,38.8644849,-77.2398704,,1.0,,,1.0,True,22031,0,0,0,0,0,0
+495,Retina Group of Washington: Muangman Lauren MD,"5454 Wisconsin Avenue, Chevy Chase",,d921fd75f12c0e1c30a79e50f02d0d5bd7cf4f11,Retina,38.9627194,-77.0869629,,1.0,,,1.0,True,20815,0,0,0,0,0,0
+496,Retina Group of Washington: Osmun Scott MD,"5454 Wisconsin Avenue, Chevy Chase",,3fc45a5a69487bf1f6858a7c5bd0efa29ebc4d2a,Retina,38.9627194,-77.0869629,,1.0,,,1.0,True,20815,0,0,0,0,0,0
+497,Retina Group of Washington: Sanders Reginald MD,"5454 Wisconsin Avenue #650, Chevy Chase",,038d3f49f6b3bcbee8f1b7da972c5be79aa3b888,Retina,38.9627194,-77.0869629,,1.0,,,1.0,True,20815,0,0,0,0,0,0
+498,River Road Surgery Center,"5110 Ridgefield Road # 108, Bethesda",,824965d6cb6bb947a19c0bcd3bde199ae22cf0f0,Surgical,38.9655822,-77.1066097,,2.0,,5.0,1.0,True,20816,0,0,0,0,0,0
+499,"Robert R. Jacobs, OD","6849 Old Dominion Drive, McLean",,cf183ef2842382520ef70eaeb1fd829a33341a91,optometrist,38.9351764,-77.1820809,,1.0,,,2.0,True,22101,0,0,0,0,0,0
+500,"Roger J. Oldham, M.D.","10215 Fernwood Road, Bethesda",,c0cf0a3a786a5eba8ccd68e78ae193a5b9ae7966,Cosmetic Eyelid Surgery,39.0240414,-77.1346836,,1.0,,5.0,1.0,True,10215,0,0,0,0,0,0
+501,Sanctuary Cosmetic Center,"1650 Tysons Boulevard #100, McLean",,c957ca0c4f0b941ebf44d40be2446f04ca13c252,BOTOX Facial Injections,38.925033,-77.223421,,1.0,,4.7,1.0,True,22102,0,0,0,0,0,0
+502,"Sapho D. Hinkle, OD","1800 South Bell Street, Arlington",,d38da7eb8a96cd77615a27ef44ef88c617577eb0,optometry,38.8571956,-77.0514992,,1.0,,,2.0,True,22202,0,0,0,0,0,0
+503,Scott Kevin R MD,"4600 Kenmore Avenue, Alexandria",,9d6a4a7959c91c352e0d433404b31a962a8c5c4e,Cosmetic Eyelid Surgery,38.8291377,-77.1094132,,1.0,,,1.0,True,22304,0,0,0,0,0,0
+504,Sears Optical,"12000 Lee Jackson Memorial Highway, Fairfax",,4722a8abef6e853ffcabddc48ef2905623e7839b,Eye Exam,38.8632864,-77.3609591,,1.0,,5.0,2.0,True,22033,0,0,0,0,0,0
+505,Sears Optical,"701 Russell Avenue, Gaithersburg",,a5e954724fdf55daa843e740e7f513794eb90aea,Eye Exam,39.15247,-77.203321,,1.0,,1.8,2.0,True,20877,0,0,0,0,0,0
+506,Sears Optical,"11255 New Hampshire Avenue, Silver Spring",,7669f08923011a5ed77a160d34189f7b59066e2c,Contact Lens,39.0429236,-76.9887896,,1.0,,1.9,2.0,True,20904,0,0,0,0,0,0
+507,"Sepehr Soltani, MD","6192 Oxon Hill Road, Oxon Hill",,62802081055863e425a739b315850bc68f5c8758,ophthalmologist,38.8033649,-76.9819293,,1.0,,3.0,1.0,True,20745,0,0,0,0,0,0
+508,Silver Spring Eye,"8630 Fenton Street #514, Silver Spring",,d9ec9e89060985ea225736407f3b308a85373925,ophthalmologist,38.997804,-77.028555,,4.0,,5.0,1.0,True,20910,0,0,0,0,0,0
+509,Solomon Eye Associates,"7500 Hanover Parkway #101b, Greenbelt",,6f297874d60d4d8a8be864ccc13e0ad1c8e1e108,Lasik,38.992709,-76.8757509,,6.0,,,1.0,True,20770,0,0,0,0,0,0
+510,Solomon Eye Physicians & Surgeons: Solomon Jonathan D MD,"14999 Health Center Drive, Bowie",,faf2d0ffefdaf089ea52ed4bc8342d6083770c34,ophthalmologist,38.9491843,-76.7459026,,1.0,,,1.0,True,20716,0,0,0,0,0,0
+511,Solomon Stephen M MD,"14999 Health Center Drive #201, Bowie",,7dd75a11b54a65fa59211637ee674eb9e00e5d25,Lasik,38.9483268,-76.7411611,,1.0,,,1.0,True,20716,0,0,0,0,0,0
+512,"Sports Vision- Keith Smithson, OD","11656 Plaza America Drive, Reston",,0f0d1ebd437c7794df6c2cc17bcfdd3393a5b1f8,optometrist,38.9515665,-77.349093,,1.0,,,2.0,True,20190,0,0,0,0,0,0
+513,Srun Eye Associates,"11160 Veirs Mill Road, Wheaton",,787a049d4d3fc616183eb91b5a67f8e8ea9a2a84,optometrist,39.0366432,-77.0549842,,2.0,,5.0,2.0,True,11160,0,0,0,0,0,0
+514,Steer Optical- Eye Doctors in Arlington VA,"4238 Wilson Boulevard #3140, Arlington",,3ef52344dd94199c8d859e3a66aecd8717c7e228,Contact Lens,38.8792642,-77.1113249,,2.0,,4.4,2.0,,22203,0,0,0,0,0,0
+515,Stephen J. Feinberg OD PC,"1634 Eye Street Northwest ll150, Washington",,4db33847e73220a6a813a3cfd9271c4fd6a4d241,optometrist,38.9010998,-77.0389017,,1.0,,,2.0,,20006,0,0,0,0,0,0
+516,"Stephen S. Pappas, Jr., M.D.","6420 Rockledge Drive, Bethesda",,118dc83890383736460b33f53dc69c5e5ca060fe,Retina,39.0245979,-77.1332318,,1.0,,5.0,1.0,,20817,0,0,0,0,0,0
+517,Suburban Outpatient Surgery,"6420 Rockledge Drive # 2100, Bethesda",,0443c9615a518fec1420ab398501c9bd40b9ad21,Surgical,39.0245979,-77.1332318,,19.0,,,1.0,,20817,0,0,0,0,0,0
+518,Surgery Center of Potomac,"3203 Tower Oaks Boulevard #100, Rockville",,4685bc037fa9ede11357ce3b835fa1b0cc765e97,Surgical,39.0565136,-77.1509089,,1.0,,,1.0,,20852,0,0,0,0,0,0
+519,Surgery Center of Rockville,"2 Choke Cherry Road # 125, Rockville",,57511b81e3a27646d4cd521ffc830cb87abff77c,Surgical,39.1140215,-77.1829689,,1.0,,4.2,1.0,,20850,0,0,0,0,0,0
+520,Sweetnam Gene OD PC,"5204A Rolling Road, Burke",,699d51d6e9bd0355aec6fba54fd6363e6243205b,optometrist,38.809911,-77.256891,,1.0,,5.0,2.0,,22015,0,0,0,0,0,0
+521,Target Optical,"11160 Veirs Mill Road, Wheaton",,357d719c833470122d5a5bea9de5a953fcfeb4a5,Lens,39.0368361,-77.0548273,,0.0,,4.3,3.0,,11160,0,0,0,0,0,0
+522,Target Optical,"13047 Fair Lakes Shopping Center, Fairfax",,ff37deeefe22ad68f2df014ca81ddacf4aafcba1,Contact Lens,38.855143,-77.392843,,0.0,,5.0,3.0,,22033,0,0,0,0,0,0
+523,Target Optical,"6600 Springfield Mall, Springfield",,77d8f125cf1275067d26baf0586eb96dced9b296,Contact Lens,38.7759925,-77.1739072,,0.0,,,3.0,,22150,0,0,0,0,0,0
+524,Target Optical,"10301 New Guinea Road, Fairfax",,fa7488eeea184ad55d85ed169c7244d97c3813a2,Contact Lens,38.7983617,-77.3010371,,0.0,,,3.0,,22032,0,0,0,0,0,0
+525,The Eye Doctors Optometrists,"8350 Traford Lane, Springfield",,260ac60803974bb6dfc6ea61ee7f78cbf12dade7,optometrist,38.7819965,-77.2333978,,4.0,,4.7,2.0,,22152,0,0,0,0,0,0
+526,"The Eye Institute of Reston, Doctors of Optometry","1800 Michael Faraday Drive #104, Reston",,60ce15adeeb518136e09003827a3331d5a6ebc34,optometrist,38.9488365,-77.3336689,,1.0,,,2.0,,20190,0,0,0,0,0,0
+527,The Eye MD,"9010 Lorton Station Boulevard #250, Lorton",,a9029a366146dc303d6fba634250b14b0aed9e15,ophthalmologist,38.7127399,-77.214972,,1.0,,3.0,1.0,,22079,0,0,0,0,0,0
+528,The Eyewear Gallery at Reston Town Center,"11900 Market Street, Reston",,c68580aef17414acad6c87ebe1d11aeaba14b8fe,Glasses,38.9590857,-77.3570592,,2.0,,4.6,2.0,,20190,0,0,0,0,0,0
+529,The Retina Centers of Washington,"15020 Shady Grove Road # 302, Rockville",,78104af2ec8795baaa091ed30e5df62c967e4f8a,Retina,39.102757,-77.191471,,3.0,,,1.0,,20850,0,0,0,0,0,0
+530,The Retina Group of Washington,"5454 Wisconsin Avenue Suite 650, Chevy Chase",,b004879fe7370e6fc12c34813d399d0e0a007c97,Retina,38.9626813,-77.0872704,,7.0,,,1.0,,20815,0,0,0,0,0,0
+531,The Retina Group of Washington,"600 Jefferson Plaza #320, Rockville",,61cc7b9f7297b3d0a154d81112b0e5a4856342f6,Retina,39.0810002,-77.146101,,3.0,,2.0,1.0,,20852,0,0,0,0,0,0
+532,The Retina Group of Washington,"9131 Piscataway Road #500, Clinton",,acb3e39f18bf6cadb88808d3b2090e76f6b835ef,Retina,38.7652068,-76.9015944,,3.0,,,1.0,,20735,0,0,0,0,0,0
+533,The Retina Group of Washington,"7501 Greenway Center Drive #300, Greenbelt",,e56be4af16bc261268f67b7e80c1dce31ae41a0a,ophthalmologist,38.9901341,-76.8800066,,4.0,,3.0,1.0,,20770,0,0,0,0,0,0
+534,The Retina Group of Washington,"8219 Leesburg Pike Suite 120, Vienna",,c5d73dddff145aa9f575648d4b7e98a647c878aa,ophthalmologist,38.9164212,-77.230891,,3.0,,5.0,1.0,,22182,0,0,0,0,0,0
+535,"Thomas E. Clinch, MD","2 Wisconsin Circle #230, Chevy Chase",,72004b625ae23766f5cd118b9eae0e63b622159f,ophthalmologist,38.9615317,-77.0854041,,1.0,,,1.0,,20815,0,0,0,0,0,0
+536,Tyson's Eye Doctor,"8093 Tysons Corner Center, Tysons",,e96bca6c99e2f598699f22ca9a61b0a9b68bd642,Lasik,38.9173929,-77.2230724,,1.0,,5.0,2.0,,22182,0,0,0,0,0,0
+537,V. Eye. P. Eyecare,"121 Ellington Boulevard, Gaithersburg",,abd4f14dbe4b7bf9441d40aaff25a4f1b2d00e46,optometrist,39.115272,-77.204839,,1.0,,5.0,2.0,,20878,0,0,0,0,0,0
+538,Vienna Eyecare Center,"120 Beulah Road, Vienna",,a63ea6bfbc95173d5eccefd1ed6cce8a7759ca4f,Lasik,38.9076655,-77.2593087,,2.0,,5.0,2.0,,22180,0,0,0,0,0,0
+539,VIRGINIA RETINA SPECIALISTS,"6400 Arlington Boulevard #600, Falls Church",,fc3dfd2ea87fe59c87049a6f71d4ddd4f61f44c6,Retina,38.872806,-77.1600822,,1.0,,5.0,1.0,,22042,0,0,0,0,0,0
+540,Virginia Vision Associates,"3800 Fairfax Drive #1, Arlington",,7c1806035a0e8215ec73ced9fb1bd4b0a33304ff,Contact Lens,38.8821,-77.105106,,3.0,,4.2,2.0,,22203,0,0,0,0,0,0
+541,"Vision Consultants and Surgeons - Gustavo Corrales, MD","410 South Washington Street, Falls Church",,fb82750aba7d5393b3e10095fa362a31f3701feb,ophthalmologist,38.880314,-77.1752097,,1.0,,4.1,1.0,,22046,0,0,0,0,0,0
+542,Vision Source DC Focus Eyecare Center PC,"614 17th Street Northwest, Washington",,9050c2d0f6fefe0d6e44ecaed21343e143134e2c,Contact Lens,38.897719,-77.039646,,2.0,,5.0,2.0,,20006,0,0,0,0,0,0
+543,Visionary Eye Doctors,"4301 Connecticut Avenue Northwest #125, Washington",,55854c676747cc263c12398be0c9132cb086b8d3,ophthalmologist,38.9449855,-77.0634574,,10.0,,4.0,1.0,,20008,0,0,0,0,0,0
+544,Visionworks,"1100 South Hayes Street, Arlington",,ce17e2aeaf66c106fa311f65ec52d91884ecaafc,Eye Exam,38.8630076,-77.0612359,,2.0,,2.4,2.0,,22202,0,0,0,0,0,0
+545,Visionworks,"1003 Fairlawn Avenue #24a, Laurel",,4fb2f6db780f3b5eb85c99dd4868bcc08684c66c,Eye Exam,39.0969385,-76.8557365,,0.0,,2.5,3.0,,20707,0,0,0,0,0,0
+546,Visionworks,"1775 K Street Northwest, Washington",,1c14e06ddc098aba3ac7956c4203009dec3110d6,Lens,38.9029064,-77.0412457,,0.0,,1.0,3.0,,20036,0,0,0,0,0,0
+547,Visionworks - Bowie Town Center,"15431 Emerald Way, Bowie",,e2827a3aa0aead16c707b3f2ad30609d3501bd3b,Lens,38.94421,-76.736286,,0.0,,1.8,3.0,,20716,0,0,0,0,0,0
+548,Visionworks - Woodmore Towne Centre,"2830 Campus Way North #628, Lanham",,cf7c559f8a321ea80c22a32a835a32c78d8eef22,Eye Exam,38.923691,-76.846888,,0.0,,2.7,3.0,,20706,0,0,0,0,0,0
+549,Visionworks Doctors Of Optometry,"11130-L S Lakes Dr, Reston",,1982f5d5fcee55e9e8a2fb2e1846a36fb84d5c18,optometrist,38.9394128,-77.3305248,,2.0,,3.2,2.0,,20191,0,0,0,0,0,0
+550,Visionworks Doctors Of Optometry,"8424 Old Keene Mill Road, West Springfield",,58ed2ba99aace9f40a6ed9397cf4ab0c47305331,optometry,38.7798185,-77.2362763,,1.0,,2.0,2.0,,22152,0,0,0,0,0,0
+551,Visionworks Doctors Of Optometry,"11903-L Lee Jackson Memorial Hwy, #G133, Fairfax",,5189fa85caccd26704a958b9d92a8f1c1ad46342,optometry,38.864824,-77.355412,,2.0,,1.8,2.0,,22033,0,0,0,0,0,0
+552,Visionworks Doctors Of Optometry - Potomac Mills,"2700 Potomac Mills Circle #105, Woodbridge",,c4e020696685cd68458070db14b1cf9d9dadcd13,optometry,38.643548,-77.2953745,,2.0,,2.3,2.0,,22192,0,0,0,0,0,0
+553,Visionworks Doctors Of Optometry - Tyson's Corner,"8359 Leesburg Pike, Vienna",,30dae7a965e07094f550cfcff96068061871ec91,optometrist,38.9207567,-77.2349772,,2.0,,1.9,2.0,,22182,0,0,0,0,0,0
+554,Visual Eyes,"8931 Woodyard Road, Clinton",,7b6a0362a9473f8f983159f30fc0daef38244423,Lasik,38.7672245,-76.8917612,,1.0,,1.4,2.0,,20735,0,0,0,0,0,0
+555,Visual Eyes,"1424 K Street Northwest, Washington",,30dd7375b1b46d4c38025e949d33b920c608f15f,Lasik,38.9021435,-77.0329388,,1.0,,1.2,2.0,,20005,0,0,0,0,0,0
+556,Visual Eyes,"1835 University Boulevard East, Hyattsville",,29a1d67c4947dfd8bf1347316b18dcf7836b1c44,Contact Lens,38.9833537,-76.9800876,,1.0,,3.7,2.0,,20783,0,0,0,0,0,0
+557,Visual Health Optometry: Chhitwal Ashish OD,"1927 Old Gallows Road, Vienna",,e015fd2f7307164ff58f108d7f56680739ea29ff,optometrist,38.9118655,-77.2213622,,1.0,,5.0,2.0,,22182,0,0,0,0,0,0
+558,Warby Parker,"1924 8th Street Northwest #105, Washington",,2e793ef75177921f4f5732bd620756f849d525f5,Lens,38.9168511,-77.0238147,,0.0,,4.8,3.0,,20001,0,0,0,0,0,0
+559,Warby Parker,"8013 Tysons Corner Center, Tysons",,ffc0e56960e631286b014da0f80aa552c16f527b,Glasses,38.9173345,-77.220967,,0.0,,3.1,3.0,,22182,0,0,0,0,0,0
+560,Washington Eye Associates,"1602 L Street Northwest #400, Washington",,3c335ec495d8ab06fe96e384716c3c2ff0af4b43,optometry,38.9034095,-77.0375747,,1.0,,4.8,2.0,,20036,0,0,0,0,0,0
+561,Washington Eye Physicians & Surgeons,"5454 Wisconsin Avenue #950, Chevy Chase",,e10b03f2feb9b9726dbd9261722837e02b777f69,Cosmetic Eyelid Surgery,38.9626693,-77.0872611,,13.0,,3.3,1.0,,20815,0,0,0,0,0,0
+562,West End Plastic Surgery,"2440 M Street Northwest #200, Washington",,3c1aeed7bf6bd0d5915f9fad80afc1e9b5cdd722,Cosmetic Eyelid Surgery,38.9047978,-77.0529348,,3.0,,4.1,1.0,,20037,0,0,0,0,0,0
+563,"Wilmer Eye Institute, Johns Hopkins Medicine Bethesda","7315 Wisconsin Avenue, Bethesda",,67521a600e656437a4e432708b7f8395a64ecdd6,Eye Surgery,38.9826881,-77.0928692,,13.0,,3.0,1.0,,20815,0,0,0,0,0,0
+564,Wink Eyecare Boutique,"1095 Seven Locks Road, Potomac",,a148bc3f0446070e3df36a6729835a6d9f040799,Lens,39.06174,-77.15975,,1.0,,5.0,2.0,,20854,0,0,0,0,0,0

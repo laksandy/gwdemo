@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+	<script src="http://d3js.org/d3.v4.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="https://d3js.org/topojson.v2.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style>
+		div.tooltip {
+			position: absolute;
+			text-align: center;
+			width: 75px;
+			height: 25px;
+			padding: 2px;
+			font-size: 10px;
+			background: #f1f1f1;
+			border: 1px;
+			border-radius: 8px;
+			pointer-events: none;
+		}
+
+		h1 {
+			background-color: #ECE5DB;
+			text-align: center;
+			color: #3B6AA0;
+			padding: 20px;
+		}
+		/*margin: auto;
+        width: 50%;*/
+
+		#container {
+			display: flex;
+		}
+
+		svg {
+			position: relative;
+		}
+
+		#map {
+			outline: 5px solid #3B6AA0;
+			height: 557px;
+			/*lakshmi added height here */
+		}
+
+		svg.dmv_map {
+
+			width: 960px;
+			height: 500px;
+			margin: 20px;
+		}
+
+		div.slice_buttons {
+			display: flex;
+			margin: 10px
+		}
+
+		div.slice_buttons div {
+			background-color: #f1f1f1;
+			color: #3B6AA0;
+			flex-grow: 1;
+			flex-basis: 0;
+			text-align: center;
+			border-radius: 6px;
+			padding: 3px;
+			margin: 3px;
+			border: 1px solid black;
+		}
+
+		div.tooltip {
+			width: auto;
+			height: auto;
+			font-size: 20px;
+			text-align: center;
+			border-radius: 6px;
+			padding: 5px;
+		}
+
+		.footer {
+			height: 400px;
+			padding: 24px 15px 200px;
+		}
+
+
+		div.pop_total {
+			color: #3B6AA0;
+			text-align: center;
+			border-radius: 6px;
+			padding: 3px;
+			font-size: 30px;
+			margin: 3px;
+		}
+	</style>
+	<script type="text/javascript">
+		function ready(error, geo_data, comp_data, zip_codes, gw_locs) {
+			if (error) throw error;
+			"use strict";
+			var margin = 75,
+				width = 1000 - margin,
+				height = 600 - margin;
+
+
+
+			//var minimum = 1, maximum = 7715;
+
+			//var minimumColor = "#BFD3E6", maximumColor = "#88419D";
+
+			//var color = d3.scaleLinear().domain([minimum, maximum]).range([minimumColor, maximumColor]);
+
+
+			// Define scale to sort data values into color buckets
+			//blue
+			//'#3B6AA0'
+			//gold
+			var tier_one_color = '#c5b358'
+
+
+			//orange
+			//'#FF8C00'
+			//silver
+			var tier_two_color = '#C0C0C0'
+
+			//darkest blue of choropleth
+			var comp_tool_color = '#034e7b'
+			var comp_stroke_color = 'black'
+
+
+			/////////////////////////////////////////////////////////////////////
+			/////////////////Create choropleth legend////////////////////////////
+			/////////////////////////////////////////////////////////////////////
+			var group = d3.select("#container")
+				.append("svg")
+				.attr("class", "legends")
+				.attr("width", 200)
+				.attr("height", 600)
+
+			//thresholds
+			var thresh_pats = [1, 100, 250, 500, 1000, 5000, 8000]
+			var thresh_comps = [1, 2, 3, 5, 6, 7, 8]
+
+			//colors
+			var color_pats = ['#f1eef6', '#d0d1e6', '#a6bddb', '#74a9cf', '#3690c0', '#0570b0', '#034e7b']
+			var color_comps = ['#fee5d9', '#fcbba1', '#fc9272', '#fb6a4a', '#ef3b2c', '#cb181d', '#99000d']
+			var color_ratio = ['#f2f0f7', '#dadaeb', '#bcbddc', '#9e9ac8', '#807dba', '#6a51a3', '#4a1486']
+
+
+			var y_pats = d3.scaleSqrt()
+				.domain([1, 8000])
+				.range([0, 325]);
+
+			var y_comps = d3.scaleSqrt()
+				.domain([1, 8])
+				.range([0, 325]);
+
+
+
+			function create_heat_legend(group, heat_color, thresholds, y) {
+
+				//re
+
+
+				d3.selectAll('.key').html("");
+
+
+				var yAxis = d3.axisRight()
+					.scale(y);
+
+				var rects = group.append("g")
+					.attr("class", "key")
+					.attr("transform", "translate(50, 165)")
+					.call(yAxis);
+
+
+
+
+				//http://download-wallpaper.net/content/with-hex-colors.html
+				//gold colors
+				//["#F8FF5F1","#ECE5DB","#EBE8DE","#D9D1BD","#C8BD9B","#BCAD7D","#b29600"
+
+
+				var color = d3.scaleThreshold()
+					.domain(thresholds)
+					.range(heat_color);
+
+
+
+				// want to keep scale of legend but figure out lables, can do this later. 
+				// var lengendLabels = ['10', '100', '250', '500', '1000', '5000', '8000']
+				// var legendLabels_comp = ['1', '2', '3', '4', '5', '6', '7']
+
+				// choropleth legend
+				// var y = d3.scaleSqrt()
+				//     .domain([10, 8000])
+				//     .range([0,325])
+
+
+
+
+				//#FF8C00
+				// gold dots hex color
+				//c5b358
+
+
+
+				rects.selectAll("rect")
+					.data(color.range().map(function (d, i) {
+						return {
+							y0: i ? y(color.domain()[i - 1]) : y.range()[0],
+							y1: i < color.domain().length ? y(color.domain()[i]) : y.range()[1],
+							z: d
+						};
+					}))
+					.enter().append("rect")
+					.attr("width", 8)
+					.attr("y", function (d) {
+						return d.y0;
+					})
+					.attr("height", function (d) {
+						return d.y1 - d.y0;
+					})
+					.style("fill", function (d) {
+						return d.z;
+					});
+				return color
+			}
+
+			var color = create_heat_legend(group, color_comps, thresh_comps, y_comps)
+			/////////////////////////////////////////////////////////////////////
+			/////////////////END choropleth legend////////////////////////////
+			/////////////////////////////////////////////////////////////////////
+
+
+			//competitor legend
+			function create_bubble_legend() {
+				var legend = d3.select(".legends")
+					.append("g")
+					.attr("class", "comp_legend")
+					.attr("transform", "translate(" + (50) + "," + 20 + ")")
+					.selectAll("g")
+					.data(["Tier 1", "Tier 2", "GW"])
+
+					.enter().append("g");
+
+				legend.append("circle")
+					.attr("cy", function (d, i) {
+						return i * 30;
+					})
+					.attr("r", 6)
+					.attr("fill", function (d) {
+						if (d == "Tier 2") {
+							return tier_two_color
+						} else if (d == "Tier 1") {
+							return tier_one_color
+						} else {
+							return 'black'
+						}
+					})
+					.style('stroke', comp_stroke_color);
+
+				legend.append("text")
+					.attr("y", function (d, i) {
+						return i * 30 + 5;
+					})
+					.attr("x", 6 * 5)
+					.text(function (d) {
+						return d;
+					})
+					.style('fill', '#3B6AA0');
+			}
+			//'#3B6AA0'
+			create_bubble_legend()
+
+
+			/////////////////////////////////////////////////////////////////////
+			/////////////////Create outline of MAP////////////////////////////
+			/////////////////////////////////////////////////////////////////////
+			var svg = d3.select("#container")
+				.append('div')
+				.attr('id', 'map')
+				.append("svg")
+				.attr('class', 'dmv_map')
+				.append('g')
+				.attr('class', 'area');
+
+			var div = d3.select("body").append("div")
+				.attr("class", "tooltip")
+				.style("opacity", 0);
+			// .addLayer(new L.TileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"));
+			var map = new L.Map("map", {
+				center: [38.901192, -77.048511],
+				zoom: 11
+			})
+
+
+			L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+				attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+				maxZoom: 18,
+				id: 'mapbox.light',
+				accessToken: 'pk.eyJ1IjoiZ2lsbC0iLCJhIjoiY2o1ODlpZXUwMTlsNjMybWNnamZ6dGR1ciJ9.5_9GrnEG4jM3WLLFDCZpTQ'
+			}).addTo(map);
+
+
+			/* Initialize the SVG layer */
+
+
+			//time to put in the choropleth. demonstrated by  from M bostock
+			// https://bost.ocks.org/mike/leaflet/
+
+			var svg = d3.select(map.getPanes().overlayPane).append("svg"),
+				g = svg.append("g").attr("class", "leaflet-zoom-hide");
+
+			//   d3.json("dmv_trim_thresh50.json", function(error, geo_data) {
+			// if (error) throw error;
+
+			function projectPoint(x, y) {
+				var point = map.latLngToLayerPoint(new L.LatLng(y, x));
+				this.stream.point(point.x, point.y);
+			}
+
+			var transform = d3.geoTransform({
+					point: projectPoint
+				}),
+				path = d3.geoPath().projection(transform);
+
+
+			// create map
+			// var projection = d3.geoMercator()
+			// 				   .center([-77.048511, 38.901192])
+			// 				   .scale(85000)
+			// 				   .translate([width / 2, height / 2])
+
+
+			//
+			// var path = d3.geoPath().projection(projection);
+
+			var feature = g.selectAll("path")
+				.data(geo_data.features)
+				.enter()
+				.append("path")
+				.attr('d', path)
+				.attr('class', 'zip')
+				.style("opacity", 0.8)
+				.style('stroke', 'black')
+				.style('stroke-width', 0.5)
+				.attr("fill", "white")
+
+
+
+
+			//draw circles////////
+			// can refactor these
+			for (i = 0; i < comp_data.length; i++) {
+				var d = comp_data[i]
+				d.LatLng = new L.LatLng(+d.lat, +d.lng)
+			}
+
+			for (i = 0; i < gw_locs.length; i++) {
+				var d = gw_locs[i]
+				d.LatLng = new L.LatLng(d.lat,
+					d.lng)
+			}
+			//tier_y
+			function key_func(d) {
+				return d['tier'];
+			}
+			//tier_y
+			var circles = g.selectAll(".comp")
+				.data(comp_data, key_func)
+				.enter()
+				.append("circle")
+				.attr("r", 8)
+				.attr("fill", function (d) {
+					return (d.tier == 2 ? tier_two_color : tier_one_color);
+				})
+				.style('stroke', '#3B6AA0')
+				.style("opacity", 0.8)
+				.on("mouseover", function (d) {
+					d3.select(this).transition().duration(300).style("opacity", 1);
+					div.transition().duration(300)
+						.style("opacity", 1)
+					div.text(d.Name)
+						.style("left", (d3.event.pageX) + "px")
+						.style("top", (d3.event.pageY - 30) + "px")
+						.style("color", "white")
+						.style("background", comp_tool_color);
+				})
+				.on("mouseout", function () {
+					d3.select(this)
+						.transition().duration(300)
+						.style("opacity", 0.8);
+					div.transition().duration(300)
+						.style("opacity", 0);
+				});
+
+			var diamond = "M 0 -5 5 5 0 15 -5 5 Z"
+			//.attr("transform", function(d) { return "translate(" + projection([d.lng, d.lat]) + ")"; })
+
+			function gw_key_func(d) {
+				return d['Name'];
+			}
+
+			var diamonds = g.selectAll('.gw')
+				.data(gw_locs, gw_key_func)
+				.enter()
+				.append("path")
+				.attr("d", diamond)
+				.attr("class", 'dia')
+				.style("stroke-width", 1)
+				.style("stroke-dasharray", "1,0")
+				.style("stroke", "black")
+				.attr("fill", 'black')
+				.style("opacity", 0.8)
+				.on("mouseover", function (d) {
+					d3.select(this).transition().duration(300).style("opacity", 1);
+					div.transition().duration(300)
+						.style("opacity", 1)
+					div.text(d.Name)
+						.style("left", (d3.event.pageX) + "px")
+						.style("top", (d3.event.pageY - 30) + "px")
+						.style("color", "white")
+						.style("background", "#b29600");
+				})
+				.on("mouseout", function () {
+					d3.select(this)
+						.transition().duration(300)
+						.style("opacity", 0.8);
+					div.transition().duration(300)
+						.style("opacity", 0);
+				});
+			///////////////////end draw circles/////////////////
+
+
+			//doest the actually drawing of all the points.
+			function reset() {
+				var bounds = path.bounds(geo_data),
+					topLeft = bounds[0],
+					bottomRight = bounds[1];
+				//deG=bugger;
+
+				diamonds.attr("transform",
+					function (d) {
+						return "translate(" +
+							map.latLngToLayerPoint(d.LatLng).x + "," +
+							map.latLngToLayerPoint(d.LatLng).y + ")";
+					}
+				)
+
+
+				// if (typeof circles !== 'undefined' ) {
+				circles.attr("transform",
+					function (d) {
+						return "translate(" +
+							map.latLngToLayerPoint(d.LatLng).x + "," +
+							map.latLngToLayerPoint(d.LatLng).y + ")";
+					}
+				)
+				// //};
+
+
+				//};
+
+				svg.attr("width", bottomRight[0] - topLeft[0])
+					.attr("height", bottomRight[1] - topLeft[1])
+					.style("left", topLeft[0] + "px")
+					.style("top", topLeft[1] + "px");
+
+				g.attr("transform", "translate(" + -topLeft[0] + "," + -topLeft[1] + ")");
+
+				feature.attr("d", path);
+			}
+			//where the old reset used to be
+			// map.on("viewreset", reset);
+			// reset();
+
+
+
+
+			/////////////////////////////////////////////////////////////////////
+			/////////////////END Outline MAP////////////////////////////
+			/////////////////////////////////////////////////////////////////////
+
+
+			/////////////////////////////////////////////////////////////////////
+			/////////////////Update Functions////////////////////////////
+			/////////////////////////////////////////////////////////////////////
+			function update_comp(filter) {
+				// reset filtered object
+				//otherwise will just append new row
+				var filtered = {}
+				if (filter === '_') {
+					filtered = comp_data
+				} else {
+					var filtered = comp_data.filter(function (d) {
+						//debugger;
+						if (d[filter] == "1") {
+							return d;
+						} else {; //is there js best practice for not returning 
+						}
+					})
+				}
+
+				function key_func(d) {
+					return d[filter];
+				}
+
+
+
+
+
+				var comp = g.selectAll('circle')
+					.data(filtered, key_func);
+
+				comp.exit().remove();
+				//#FF8C00
+				// gold dots hex color
+				//c5b358
+				//.attr("transform", function(d) { return "translate(" + projection([d.lng_y, d.lat_y]) + ")"; })
+				//trying local overwriting global
+				//d.tier_y
+				circles = comp.enter()
+					.append("circle")
+					.attr("r", 8)
+					.attr("fill", function (d) {
+						return (d.tier == 2 ? tier_two_color : tier_one_color);
+					})
+					.style('stroke', comp_stroke_color)
+					.style("opacity", 0.8)
+					.on("mouseover", function (d) {
+						d3.select(this).transition().duration(300).style("opacity", 1);
+						div.transition().duration(300)
+							.style("opacity", 1)
+						div.text(d.Name)
+							.style("left", (d3.event.pageX) + "px")
+							.style("top", (d3.event.pageY - 30) + "px")
+							.style("color", "white")
+							.style("background", comp_tool_color);
+					})
+					.on("mouseout", function () {
+						d3.select(this)
+							.transition().duration(300)
+							.style("opacity", 0.8);
+						div.transition().duration(300)
+							.style("opacity", 0);
+					});
+				return circles;
+
+			};
+
+			for (i = 0; i < gw_locs.length; i++) {
+				var d = gw_locs[i]
+				d.LatLng = new L.LatLng(d.lat,
+					d.lng)
+			}
+
+			function update_gw(filter) {
+				var filtered = {}
+				if (filter === "") {
+					filtered = gw_locs
+				} else {
+					var filtered = gw_locs.filter(function (d) {
+						if (d['Name'] == filter) {
+							return d
+						} else {; //is there js best practice for not returning 
+						}
+					})
+				}
+
+				function gw_key_func(d) {
+					return d['Name'];
+				}
+				// adding key func removed everything
+				// var gw = g.selectAll('.dia')
+				//                   .data(filtered, gw_key_func);
+
+				//  	gw.exit().remove();
+				//this code is janky because instead of doing
+				//update essentially I remove them all and then plot
+				// the filtered ones, this works fine and is still fast
+				//since only one point, but not the normal operation
+				var gw = g.selectAll('.dia')
+					.remove()
+
+				//gw.data(filtered, gw_key_func);
+				//#FF8C00
+				// gold dots hex color
+				//c5b358
+				var diamond = "M 0 -5 5 5 0 15 -5 5 Z"
+
+				diamonds = g.selectAll('.gw')
+					.data(filtered, gw_key_func)
+					.enter()
+					.append("path")
+					.attr("d", diamond)
+					.attr("class", 'dia')
+					.style("stroke-width", 1)
+					.style("stroke-dasharray", "1,0")
+					.style("stroke", "black")
+					.attr("fill", 'black')
+					.style("opacity", 0.8)
+					.on("mouseover", function (d) {
+						d3.select(this).transition().duration(300).style("opacity", 1);
+						div.transition().duration(300)
+							.style("opacity", 1)
+						div.text(d.Name)
+							.style("left", (d3.event.pageX) + "px")
+							.style("top", (d3.event.pageY - 30) + "px")
+							.style("color", "white")
+							.style("background", "#b29600");
+					})
+					.on("mouseout", function () {
+						d3.select(this)
+							.transition().duration(300)
+							.style("opacity", 0.8);
+						div.transition().duration(300)
+							.style("opacity", 0);
+					});
+				//create_legend()
+
+			};
+
+
+			function update_zip(filter_zips, filter_comp, heat) {
+
+				//need to do if statement on type
+				// patients vs comp.
+
+
+				// comp: "zip_code"
+				// patients : "Patients Zip"
+
+
+				//debugger;
+				function color_zips(data, filter, zip_col, label) {
+					//debugger;
+					var filtered = {}
+					//this is janky should juse be double _ not with undefined.
+					if (filter === '__' || filter === "_") {
+						filtered = data
+					} else {
+						var filtered = data.filter(function (d) {
+							if (d[filter] == "True" || d[filter] == '1') {
+								return d;
+							} else {; //is there js best practice for not returning?
+							}
+						})
+					}
+					//debugger;
+
+					var nested = d3.nest()
+						.key(function (d) {
+							return d[zip_col];
+						})
+						.rollup(function (leaves) {
+							var count = d3.sum(leaves, function (d) {
+								return +1;
+							});
+							return {
+								"count": count
+							}
+						})
+						.entries(filtered);
+
+					var total = 0
+					for (i = 0; i < nested.length; i++) {
+						total = total + nested[i]['value']['count']
+					};
+					//update chorpleth basec on buttons. 
+					//var map = svg.selectAll('path')
+					//                 data(filtered, key_func);
+
+					//map.exit().remove();
+
+					d3.select('.pop_total')
+						.html(label + ": " + '<br>' + total)
+
+					//create a new set based off of filtered and nested data. 
+					var new_zips = d3.map();
+					for (i = 0; i < nested.length; i++) {
+						new_zips.set(nested[i]['key'], nested[i]['value']['count'])
+					}
+
+					//return color(d.count = new_zips.get(d.properties.ZCTA5CE10));
+					//need to fix this as it throws an error due to undefined zips in filter
+					// if (typeof d.properties.ZCTA5CE10 !== "") {
+					//   d.count = new_zips.get(d.properties.ZCTA5CE10)
+					// if (d.properties.ZCTA5CE10 in d3.values(new_zips)) {
+					// 	d.count = new_zips.get(d.properties.ZCTA5CE10);
+					// 	return color(d.count);
+					g.selectAll('.zip')
+						.attr("fill", function (d) {
+							d.count = new_zips.get(d.properties.ZCTA5CE10)
+							if (d.count) {
+								return color(d.count);
+							} else {
+								return "#f1f1f1";
+							}
+						})
+						.style('stroke', 'black')
+						.style('stroke-width', 0.5)
+						.on("mouseover", function (d) {
+							d3.select(this).transition().duration(300).style("opacity", 1);
+							div.transition().duration(300)
+								.style("opacity", 1)
+							div.html("Zip Code: " + d.properties.ZCTA5CE10 + "<br>" + label + ": " + d.count)
+								.style("left", (d3.event.pageX) + "px")
+								.style("top", (d3.event.pageY - 30) + "px")
+								.style("color", "black")
+								.style("background", "#f1f1f1");
+						})
+						.on("mouseout", function () {
+							d3.select(this)
+								.transition().duration(300)
+								.style("opacity", 0.8);
+							div.transition().duration(300)
+								.style("opacity", 0);
+						})
+
+					return new_zips
+				};
+
+				//color_zips(zip_codes, filter_zips, "Patient ZIP", "Patients");
+
+				if (heat === "Patients") {
+					color = create_heat_legend(group, color_pats, thresh_pats, y_pats)
+					color_zips(zip_codes, filter_zips, "Patient ZIP", "Patients")
+				}
+				if (heat === "Comp") {
+					color = create_heat_legend(group, color_comps, thresh_comps, y_comps)
+					color_zips(comp_data, filter_comp, "zip_code", "Competitors")
+				}
+				if (heat === "Pat/Comp") {
+					color = create_heat_legend(group, color_ratio, thresh_pats, y_pats)
+					var comp_zips = color_zips(comp_data, filter_comp, "zip_code", "Competitors")
+					var pat_zips = color_zips(zip_codes, filter_zips, "Patient ZIP", "Patients")
+					var ratio_zips = d3.map()
+					for (i = 0; i < pat_zips.keys().length; i++) {
+						var d = pat_zips.keys()[i]
+						//debugger;
+						if ((d in comp_zips.keys())) {
+							ratio_zips.set(d, Number(pat_zips.get(d)) / (Number(comp_zips.get(d)) + 1));
+						} else {
+							ratio_zips.set(d, Number(pat_zips.get(d)));
+						}
+
+					}
+
+
+					//    			$each( pat_zips, function(index,value){
+					//  ratio_zips.set(index, Number(value) / Number(comp_zips.get(index))); 
+					// })
+					var label = "Ratio"
+					//debugger;
+					g.selectAll('.zip')
+						.attr("fill", function (d) {
+							//debugger;
+							d.count = ratio_zips.get(d.properties.ZCTA5CE10)
+							if (d.count) {
+								return color(d.count);
+							} else {
+								return "#f1f1f1";
+							}
+						})
+						.style('stroke', 'black')
+						.style('stroke-width', 0.5)
+						.on("mouseover", function (d) {
+							d3.select(this).transition().duration(300).style("opacity", 1);
+							div.transition().duration(300)
+								.style("opacity", 1)
+							div.html("Zip Code: " + d.properties.ZCTA5CE10 + "<br>" + label + ": " + d.count)
+								.style("left", (d3.event.pageX) + "px")
+								.style("top", (d3.event.pageY - 30) + "px")
+								.style("color", "black")
+								.style("background", "#f1f1f1");
+						})
+						.on("mouseout", function () {
+							d3.select(this)
+								.transition().duration(300)
+								.style("opacity", 0.8);
+							div.transition().duration(300)
+								.style("opacity", 0);
+						})
+				} else {}
+				//gold dot hex color
+				//#FF8C00
+				//debugger;
+			};
+
+			d3.select('#container')
+				.append('div')
+				.attr('class', 'buttons')
+
+			function create_button_group(button_data, clas, checks) {
+				var buttons = d3.select(".buttons")
+					.append("div")
+					.attr("class", clas + " " + "slice_buttons")
+					.selectAll("div")
+					.data(button_data)
+					.enter()
+					.append("div")
+					.text(function (d) {
+						return d;
+					});
+
+				buttons.on("click", function (d) {
+					d3.select("." + clas)
+						.selectAll("div")
+						.transition()
+						.duration(500)
+						.style("color", "black")
+						.style("background", "#f1f1f1");
+
+					d3.select(this)
+						.transition()
+						.duration(500)
+						.style("background", "#b29600")
+						.style("color", "white");
+					//need to check for other functions here to pass the right info 
+					// d is equal to the same as this.textContent
+					key = this.parentElement.classList[0]
+					checks[key] = d
+					var filter_gw = checks["location"]
+					var filter_comp = checks["location"] + "_" + checks["percentile"]
+					var filter_zips = checks["location"] + "_" + checks["percentile"] + "_" + checks["type"]
+
+					var heat = checks["heat"]
+					// will return location or percentile..
+					//update needs to be called with the combo
+
+					update_comp(filter_comp);
+					update_gw(filter_gw);
+					update_zip(filter_zips, filter_comp, heat);
+					reset();
+
+
+
+				});
+			}
+
+
+			//initialize heatmap with patients
+			var checks = {
+				'location': "",
+				'percentile': "",
+				'type': "",
+				'heat': "Patients"
+			}
+
+			var all_slice = ["All"]
+			var location_slice = ["MFA", "GWU", "Lst"];
+			var percentile_slice = ["80", "50"];
+			var type_slice = ["diagnostic", "surgery"];
+			var heat_slice = ["Patients", "Comp", "Pat/Comp"];
+
+			//create_button_group(all_slice, "all", checks );
+			// may want to refactor into fucntion, right now
+			//reloads page which is pretty clean functionally.
+			d3.select(".buttons")
+				.append("div")
+				.attr("class", "all" + " " + "slice_buttons")
+				.selectAll("div")
+				.data(all_slice)
+				.enter()
+				.append("div")
+				.text(function (d) {
+					return d;
+				})
+				.on("click", function () {
+					location.reload(true)
+				})
+
+
+
+
+
+			create_button_group(location_slice, "location", checks);
+			create_button_group(percentile_slice, "percentile", checks);
+			create_button_group(type_slice, "type", checks);
+
+
+
+			d3.select('.buttons')
+				.append('div')
+				.attr('class', 'pop_total')
+			//for some reason telling me add class is not a function.
+
+			create_button_group(heat_slice, "heat", checks);
+
+			d3.select("body").append("h2")
+				.attr("class", "footer")
+
+
+
+			//update_comp('');
+			//update_gw('');
+			map.on("viewreset", reset);
+			update_zip('__', '_', "Comp");
+			reset();
+
+
+
+
+		}
+	</script>
+</head>
+<h1 id="banner">George Washington Ophthalmology</h1>
+<!--  	<div id="map" style="width: 960px; height: 500px"></div> -->
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+<div id="container">
+	<!-- <div class="buttons"> </div> -->
+
+</div>
+
+<body>
+	<script type="text/javascript">
+		var zips = d3.map();
+
+		//map_comp_test
+		//map_comp_test_vetted_565
+		//map_comp_test_vetted_513
+
+		d3.queue()
+			.defer(d3.json, "public_data/geojson/dmv_trim_thresh50.json")
+			.defer(d3.csv, "data/map_comp_test_vetted_565.csv")
+			.defer(d3.csv, "data/data_with_distances_with_labels.csv")
+			.defer(d3.csv, 'data/gw_walk_score_short_name.csv')
+			.defer(d3.tsv, "data/zip_counts.tsv", function (d) {
+				zips.set(d.zip_code, +d.count);
+			})
+			.await(ready);
+
+		//d3.json("dmv.json", draw);
+	</script>
+</body>
+
+</html>
