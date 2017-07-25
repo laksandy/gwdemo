@@ -1,0 +1,9 @@
+ .reveal ol li {
+     margin: 20px;
+     list-style-type: lower-roman;
+ }
+
+.reveal ul li {
+    list-style: none;
+}
+
