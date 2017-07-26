@@ -31,37 +31,51 @@
   <link rel="stylesheet" href="lib/gw-ppt.css">
 </head>
 
-<body class="container">
+<body class="container-fluid">
   <div class="reveal">
 
     <!-- Any section element inside of this container is displayed as a slide -->
     <div class="slides">
       <!-- Slide 1 -->
-      <section>
-        <img src='assets/bitmap@3x.png' alt='home page'>
+      <section data-background-image="title.png" data-background-size="cover">
+        <!--<img src='assets/bitmap@3x.png' alt='home page'>-->
       </section>
 
       <!-- Slide 2 -->
       <section>
-        <h2>Recap of Project and Scope</h2>
+        <h2>Objectives</h2>
         <div class="row">
-          <div class="col-md-6">
-            <p>
-              <ol>
-                <li>
-                  Summary of Memorandum and Understanding
-                </li>
-                <li>
-                  Summary of Data provided in order to achieve project objectives
-                </li>
+          <div class="col-md-12">
+            <p style="font-size:16px;text-align:left;">
+              Fast Rope Labs will assist GW MFA Ophthalmology department analyze patient data,
+              including de-identified home address zip code, age, and sub-speciality, to develop
+              a better understanding of patient catchment area and geographic profile. Such and
+              understanding will facilitate follow-on analysis of patient demographic profile and
+              competitive positioning to enable objective evaluation of target expansion locations.
+            </p>
+
+            <br>
+
+            <p style="margin-left:10px;font-size:24px;text-align:left;">
+              Approach
+            </p>
+
+            <p class="lists">
+              <ol class="lists">
+                <li><strong>Data Import and Preparation:</strong> Gather data from GW MFA, import data into statistical analysis environment, and prepare data for analysis.</li>
+                <li><strong>Data Multi-Factor Analysis:</strong> Segment and separate data by age, sub-speciality, and location relative to the primary location.</li>
+                <li><strong>Data Multi-Factor Analysis:</strong> Segment and separate data by age, sub-speciality, and location relative to the primary location.</li>
+                <li><strong>Data Visualization and Reporting:</strong> Visualize data in map and graphical form to display catchment area by age, sub-speciality, and in aggregate for the 50th and 80th percentiles at the primary location. Compile report and deliver digitally to GW MFA.</li>
+                <li><strong>Competitor and Demographic Assessment:</strong> Identify competitive practices in and near the catchment areas, as well as demographic profile within the existing catchment area using Census, BLS and Medicare Data.</li>
+                <li><strong>Opportunity Assessment:</strong> Evaluate potential locations based on risk modeling from analyzed data</li>
               </ol>
             </p>
           </div>
-          <div class="col-md-6 outer-img-cntr">
+          <!--<div class="col-md-6 outer-img-cntr">
             <div class="inner-img-cntr">
               <img src="http://via.placeholder.com/300/09f/fff.png" alt="placeholder image">
             </div>
-          </div>
+          </div>-->
         </div>
       </section>
 
