@@ -7,3 +7,21 @@
     list-style: none;
 }
 
+
+.hero {
+  background: url("assets/bitmap@3x.png") no-repeat fixed center;
+}
+
+.lists {
+  font-size: 14px;
+  text-align: left;
+}
+
+.lists p {
+  font-size: 20px;
+  text-align: left;
+}
+
+.lists li {
+  font-size: 14px;
+}
